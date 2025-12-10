@@ -1,9 +1,0 @@
-term
-http://www.w3.org/2002/07/owl#Ontology
-http://purl.obolibrary.org/obo/fbbi/imports/ro_import.owl
-http://www.w3.org/2002/07/owl#AnnotationProperty
-http://www.w3.org/2002/07/owl#Class
-http://purl.obolibrary.org/obo/fbbi.owl
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.geneontology.org/formats/oboInOwl#id
-http://purl.obolibrary.org/obo/FBBI_00000000

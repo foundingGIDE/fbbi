@@ -1,8 +1,0 @@
-format-version: 1.2
-data-version: fbbi/releases/2019-03-07/fbbi-base.owl
-ontology: fbbi/fbbi-base
-
-[Term]
-id: FBBI:00000000
-name: root node
-
