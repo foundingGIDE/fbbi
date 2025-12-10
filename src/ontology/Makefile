@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                ce98b07c2a7d316b4f672e8c674a53575077883b7925dc99edf08acd0674d88e
+CONFIG_HASH=                78962d16a1f20ace62410a4d3c5732da41a2e6ffa4247a876419d8818591877e
 
 
 # ----------------------------------------
@@ -61,6 +61,12 @@ ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONT
 OTHER_SRC =                 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
+
+MAPPINGDIR=                 ../mappings
+MAPPING_TESTER=             sssom validate
+SSSOMPY=                    sssom
+MAPPINGS=                   main 
+MAPPING_RELEASE_FILES=      $(foreach n,$(MAPPINGS), $(MAPPINGDIR)/$(n).sssom.tsv)
 
 
 
@@ -214,8 +220,9 @@ all_subsets: $(SUBSET_FILES)
 # ----------------------------------------
 
 
-MAPPINGS = 
+MAPPINGS =  main
 
+RELEASED_MAPPINGS =  main
 
 MAPPING_FILES = $(foreach p, $(MAPPINGS), $(MAPPINGDIR)/$(p).sssom.tsv)
 RELEASED_MAPPING_FILES = $(foreach p, $(RELEASED_MAPPINGS), $(MAPPINGDIR)/$(p).sssom.tsv)
@@ -342,9 +349,12 @@ prepare_release_fast:
 .PHONY: copy_release_files
 copy_release_files:
 	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR)
+	mkdir -p $(RELEASEDIR)/mappings
+	cp -rf $(RELEASED_MAPPING_FILES) $(RELEASEDIR)/mappings
 
 # All released assets, in their final location within the release
-RELEASE_ASSETS_AFTER_RELEASE=$(foreach n,$(RELEASE_ASSETS), $(RELEASEDIR)/$(n))
+RELEASE_ASSETS_AFTER_RELEASE=$(foreach n,$(RELEASE_ASSETS), $(RELEASEDIR)/$(n)) \
+			     $(foreach n,$(RELEASED_MAPPINGS), $(RELEASEDIR)/mappings/$(n).sssom.tsv)
 
 .PHONY: show_release_assets
 show_release_assets:
@@ -501,6 +511,27 @@ custom_reports: $(EDIT_PREPROCESSED) | $(REPORTDIR)
 ifneq ($(SPARQL_EXPORTS_ARGS),)
 	$(ROBOT) query -f tsv --use-graphs true -i $< $(SPARQL_EXPORTS_ARGS)
 endif
+
+# ----------------------------------------
+# SSSOM Mapping Files
+# ----------------------------------------
+
+validate-sssom-%:
+	tsvalid $(MAPPINGDIR)/$*.sssom.tsv --comment "#"
+	sssom validate $(MAPPINGDIR)/$*.sssom.tsv
+
+validate_mappings:
+	$(MAKE_FAST) $(foreach n,$(MAPPINGS),validate-sssom-$(n))
+
+normalize-sssom-%:
+	sssom-cli --output $(MAPPINGDIR)/$*.sssom.tsv $(MAPPINGDIR)/$*.sssom.tsv
+
+normalize_mappings:
+	$(MAKE_FAST) $(foreach n,$(MAPPINGS),normalize-sssom-$(n))
+
+# This mappingset is manually curated, so we only check that the file actually exists.
+$(MAPPINGDIR)/main.sssom.tsv:
+	test -f $@
 
 # ----------------------------------------
 # Release artefacts: export formats
