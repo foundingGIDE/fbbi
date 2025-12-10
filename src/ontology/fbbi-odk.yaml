@@ -1,0 +1,14 @@
+github_org: Imaging-semantics
+id: fbbi
+import_group:
+  use_base_merging: true
+  products:
+  - id: ro
+robot:
+  reasoner: ELK
+repo: fbbi
+report_fail_on: ERROR
+title: Biological imaging methods ontology
+uribase: http://purl.obolibrary.org/obo
+workflows:
+  - qc
