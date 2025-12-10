@@ -15,8 +15,8 @@ Ontology: <http://purl.obolibrary.org/obo/fbbi/fbbi-idranges.owl>
 
 
 Annotations: 
-    idsfor: "FBBI",
-    idprefix: "http://purl.obolibrary.org/obo/FBBI_",
+    idsfor: "FBbi",
+    idprefix: "http://purl.obolibrary.org/obo/FBbi_",
     iddigits: 7
 
 AnnotationProperty: idprefix:

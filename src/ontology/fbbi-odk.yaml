@@ -1,5 +1,8 @@
 github_org: Imaging-semantics
+git_main_branch: master
 id: fbbi
+namespaces:
+  - http://purl.obolibrary.org/obo/FBbi_
 import_group:
   use_base_merging: true
   products:

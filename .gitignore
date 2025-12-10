@@ -27,7 +27,6 @@ bin/
 /patterns/
 /reports/
 /subsets/
-/bridges/
 
 src/ontology/mirror
 src/ontology/mirror/*
@@ -51,7 +50,6 @@ src/ontology/simple_seed.txt
 src/ontology/patterns
 src/ontology/merged-fbbi-edit.owl
 src/ontology/fbbi-edit.properties
-src/ontology/bridges
 
 src/ontology/target/
 src/ontology/tmp/*
