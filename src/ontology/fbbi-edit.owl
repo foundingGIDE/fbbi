@@ -8,12 +8,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/fbbi.owl>
 Import(<http://purl.obolibrary.org/obo/fbbi/imports/merged_import.owl>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-6095-8718>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-7073-9172>)
+Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-8841-5870>)
+Annotation(<http://purl.org/dc/terms/description> "This CV covers sample preparation, visualization and imaging methods.")
+Annotation(<http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/>)
+Annotation(<http://purl.org/dc/terms/title> "Biological Imaging Methods Ontology")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#default-namespace> "image")
 Annotation(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2")
-Annotation(rdfs:comment "Biological Imaging Methods CV")
-Annotation(rdfs:comment "This CV covers sample preparation, visualization and imaging methods.")
-Annotation(rdfs:comment "corrections and additions to chris@bio.umass.edu")
-Annotation(rdfs:comment "editor:Chris Woodcock (The Cell: An Image Library)")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00000001>))
@@ -653,6 +655,10 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000589>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
@@ -692,11 +698,11 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#cre
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#creation_date> "creation date")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has cross-reference)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 

@@ -1,27 +1,25 @@
 # PURL configuration for http://purl.obolibrary.org/obo/fbbi
 
-idspace: FBBI
+idspace: FBbi
 base_url: /obo/fbbi
 
 products:
-- fbbi.owl: https://raw.githubusercontent.com/Imaging-semantics/fbbi/master/fbbi.owl
-- fbbi.obo: https://raw.githubusercontent.com/Imaging-semantics/fbbi/master/fbbi.obo
+- fbbi.owl: https://github.com/gouttegd/fbbi/releases/latest/download/fbbi.owl
+- fbbi.obo: https://github.com/gouttegd/fbbi/releases/latest/download/fbbi.obo
+- fbbi.json: https://github.com/gouttegd/fbbi/releases/latest/download/fbbi.json
 
 term_browser: ontobee
 example_terms:
-- fbbi_0000000
+- FBbi_00000031
 
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/Imaging-semantics/fbbi/v
+  replacement: https://github.com/gouttegd/fbbi/releases/download/v
 
 - prefix: /tracker/
-  replacement: https://github.com/Imaging-semantics/fbbi/issues
+  replacement: https://github.com/gouttegd/fbbi/issues
 
-- prefix: /about/
-  replacement: http://www.ontobee.org/ontology/FBBI?iri=http://purl.obolibrary.org/obo/
-
-## generic fall-through, serve direct from github by default
+## generic fall-through, serve from the latest release artefacts
 - prefix: /
-  replacement: https://raw.githubusercontent.com/Imaging-semantics/fbbi/master/
+  replacement: https://github.com/gouttegd/fbbi/releases/latest/download/
