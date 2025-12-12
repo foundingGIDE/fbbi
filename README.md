@@ -1,32 +1,49 @@
-[![Build Status](https://travis-ci.org/Imaging-semantics/fbbi.svg?branch=master)](https://travis-ci.org/Imaging-semantics/fbbi)
-[![DOI](https://zenodo.org/badge/13996/Imaging-semantics/fbbi.svg)](https://zenodo.org/badge/latestdoi/13996/Imaging-semantics/fbbi)
+# Biological Imaging Methods Ontology
 
-# Biological imaging methods ontology
+This is an ontology for the description of sample preparation,
+visualisation, and imaging methods used in biomedical research.
 
-This ontology was originally developed by FlyBase (http://www.flybase.net) and extended by the [cell image library](http://www.cellimagelibrary.org/), who have both used it extensively to annotate images on their respective sites.  Please credit them if you use this ontology.
+## History
+The ontology was originally developed by [FlyBase](https://flybase.org/)
+until circa 2005. The latest version edited by FlyBase is available on
+<https://s3ftp.flybase.org/releases/FB2025_02/precomputed_files/ontologies/image.obo.gz>.
 
-It has also been used by [PhenoImageShare](https://github.com/PhenoImageShare), [Virtual Fly Brain](https://github.com/VirtualFlyBrain) and in metadata for the [Human Cell Atlas](https://github.com/human_cell_atlas)
+It was later extended and used by several groups beyond FlyBase,
+including:
 
-More information can be found at http://obofoundry.org/ontology/fbbi
+* Chris Woodcock and the [Cell Image Library](http://www.cellimagelibrary.org/);
+* Willy Wong and the Center for Research in Biological Systems (version
+  [available on GitHub](https://github.com/CRBS/Biological_Imaging_Methods_Ontology));
+* David Osumi-Sutherland as part of the PhenoImageShare project (version
+  [available on Github](https://github.com/Imaging-semantics/fbbi)).
+
+From 2026 onwards, the ontology is maintained by a joint effort between
+the EMBL-EBI [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/)
+and [German BioImaging e.V.](https://gerbi-gmb.de/).
+
+
+## Known users
+The ontology is known to be used by:
+
+* [FlyBase](https://flybase.org/);
+* [Virtual Fly Brain](https://wwwvirtualflybrain.org/);
+* the [Cell Image Library](https://www.cellimagelibrary.org/);
+* the [Human Cell Atlas](https://www.humancellatlas.org/).
+
 
 ## Versions
 
 ### Stable release versions
-
 The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/fbbi.owl 
-
-(note this will not show up until the request has been approved by obofoundry.org)
+<http://purl.obolibrary.org/obo/fbbi.owl>.
 
 ### Editors' version
-
 Editors of this ontology should use the edit version, [src/ontology/fbbi-edit.owl](src/ontology/fbbi-edit.owl)
 
 ## Contact
-
-Please use this GitHub repository's [Issue tracker](https://github.com/Imaging-semantics/fbbi/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/gouttegd/fbbi/issues)
+to request new terms/classes or report errors or specific concerns
+related to the ontology.
 
 ## Acknowledgements
-
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology is maintained using the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit).

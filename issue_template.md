@@ -10,12 +10,16 @@ For new term requests, please provide the following information:
 
 ## Textual definition
 
-the definition should be understandable even for non-specialists. Include a PubMed ID to refer to any relevant article that provides additional information about the suggested term.
+The definition should be understandable even for non-specialists. If
+possible, include a PubMed ID, DOI, or other identifier to refer to any
+relevant reference that provides additional information about the
+suggested term.
 
 ## Suggested parent term
 
-Please look in the hierarchy in a browser such as [OLS](http://www.ebi.ac.uk/ols/ontologies/fbbi)
+Please look in the hierarchy in a browser such as
+[OLS](http://www.ebi.ac.uk/ols/ontologies/fbbi)
 
 ## Attribution
 
-If you would like a nanoattribution, please indicate your ORCID id
+If you would like a nanoattribution, please indicate your ORCID id.
