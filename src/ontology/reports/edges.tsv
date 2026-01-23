@@ -1,7 +1,7 @@
 ?x	?p	?y
+<http://purl.obolibrary.org/obo/FBbi_00000620>	<http://purl.obolibrary.org/obo/FBbi_00000346>	<http://purl.obolibrary.org/obo/FBbi_00000616>
 <http://purl.obolibrary.org/obo/FBbi_00000260>	<http://purl.obolibrary.org/obo/FBbi_00000346>	<http://purl.obolibrary.org/obo/FBbi_00000342>
 <http://purl.obolibrary.org/obo/FBbi_00000619>	<http://purl.obolibrary.org/obo/FBbi_00000346>	<http://purl.obolibrary.org/obo/FBbi_00000617>
-<http://purl.obolibrary.org/obo/FBbi_00000620>	<http://purl.obolibrary.org/obo/FBbi_00000346>	<http://purl.obolibrary.org/obo/FBbi_00000616>
 <http://purl.obolibrary.org/obo/FBbi_00000398>	<http://purl.obolibrary.org/obo/FBbi_00000346>	<http://purl.obolibrary.org/obo/FBbi_00000419>
 <http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000020>
 <http://purl.obolibrary.org/obo/UBERON_0001062>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000004>
@@ -11,8 +11,8 @@
 <http://purl.obolibrary.org/obo/BFO_0000023>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000017>
 <http://purl.obolibrary.org/obo/BFO_0000004>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000002>
 <http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000003>
-<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000002>
 <http://purl.obolibrary.org/obo/GO_0003674>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000015>
+<http://purl.obolibrary.org/obo/BFO_0000020>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000002>
 <http://purl.obolibrary.org/obo/GO_0016301>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/GO_0003674>
 <http://purl.obolibrary.org/obo/PATO_0000001>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000020>
 <http://purl.obolibrary.org/obo/GO_0008150>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/BFO_0000015>
@@ -298,8 +298,8 @@
 <http://purl.obolibrary.org/obo/FBbi_00000344>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000241>
 <http://purl.obolibrary.org/obo/FBbi_00000543>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000535>
 <http://purl.obolibrary.org/obo/FBbi_00000390>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000383>
-<http://purl.obolibrary.org/obo/FBbi_00000508>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000482>
 <http://purl.obolibrary.org/obo/FBbi_00000622>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000258>
+<http://purl.obolibrary.org/obo/FBbi_00000508>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000482>
 <http://purl.obolibrary.org/obo/FBbi_00000458>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000455>
 <http://purl.obolibrary.org/obo/FBbi_00000418>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000407>
 <http://purl.obolibrary.org/obo/FBbi_00000499>	<http://www.w3.org/2000/01/rdf-schema#subClassOf>	<http://purl.obolibrary.org/obo/FBbi_00000481>
