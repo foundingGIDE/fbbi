@@ -6,8 +6,8 @@ description: >-
   An ontology for the description of sample preparation, visualization, and
   imaging methods used in biomedical research.
 domain: investigations
-homepage: https://github.com/gouttegd/fbbi
-tracker: https://github.com/gouttegd/fbbi/issues
+homepage: https://github.com/foundingGIDE/fbbi
+tracker: https://github.com/foundingGIDE/fbbi/issues
 license:
   url: http://creativecommons.org/licenses/by/4.0/
   label: CC-BY
@@ -17,7 +17,7 @@ contact:
   label: Damien Goutte-Gattat
   github: gouttegd
 build:
-  checkout: git clone https://github.com/gouttegd/fbbi.git
+  checkout: git clone https://github.com/foundingGIDE/fbbi.git
   system: git
   path: "."
 products:

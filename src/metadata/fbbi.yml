@@ -4,9 +4,9 @@ idspace: FBbi
 base_url: /obo/fbbi
 
 products:
-- fbbi.owl: https://github.com/gouttegd/fbbi/releases/latest/download/fbbi.owl
-- fbbi.obo: https://github.com/gouttegd/fbbi/releases/latest/download/fbbi.obo
-- fbbi.json: https://github.com/gouttegd/fbbi/releases/latest/download/fbbi.json
+- fbbi.owl: https://github.com/foundingGIDE/fbbi/releases/latest/download/fbbi.owl
+- fbbi.obo: https://github.com/foundingGIDE/fbbi/releases/latest/download/fbbi.obo
+- fbbi.json: https://github.com/foundingGIDE/fbbi/releases/latest/download/fbbi.json
 
 term_browser: ontobee
 example_terms:
@@ -15,11 +15,11 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://github.com/gouttegd/fbbi/releases/download/v
+  replacement: https://github.com/foundingGIDE/fbbi/releases/download/v
 
 - prefix: /tracker/
-  replacement: https://github.com/gouttegd/fbbi/issues
+  replacement: https://github.com/foundingGIDE/fbbi/issues
 
 ## generic fall-through, serve from the latest release artefacts
 - prefix: /
-  replacement: https://github.com/gouttegd/fbbi/releases/latest/download/
+  replacement: https://github.com/foundingGIDE/fbbi/releases/latest/download/

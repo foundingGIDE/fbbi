@@ -17,9 +17,8 @@ including:
 * David Osumi-Sutherland as part of the PhenoImageShare project (version
   [available on Github](https://github.com/Imaging-semantics/fbbi)).
 
-From 2026 onwards, the ontology is maintained by a joint effort between
-the EMBL-EBI [BioImage Archive](https://www.ebi.ac.uk/bioimage-archive/)
-and [German BioImaging e.V.](https://gerbi-gmb.de/).
+From 2026 onwards, the ontology is maintained by a joint effort under the
+umbrella of the [FoundingGIDE](https://founding-gide.eurobioimaging.eu) project.
 
 
 ## Known users
@@ -41,7 +40,7 @@ The latest version of the ontology can always be found at:
 Editors of this ontology should use the edit version, [src/ontology/fbbi-edit.owl](src/ontology/fbbi-edit.owl)
 
 ## Contact
-Please use this GitHub repository's [Issue tracker](https://github.com/gouttegd/fbbi/issues)
+Please use this GitHub repository's [Issue tracker](https://github.com/foundingGIDE/fbbi/issues)
 to request new terms/classes or report errors or specific concerns
 related to the ontology.
 
