@@ -650,6 +650,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00001006>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00001007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00001012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00050000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100005>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -6338,6 +6344,60 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00050000> "FBbi:00050000")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00050000> "focussed ion beam scanning electron microscopy (FIB-SEM)")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00050000> <http://purl.obolibrary.org/obo/FBbi_00000373>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100000> (SNAP-tag)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21924508") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100000> "A visualisation method that detects a protein self-labelled with a SNAP-tag. A SNAP-tag is an engineered version of the mammalian enzyme AGT that can covalently bind O6-benzylguanine-based ligands.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100000> "visualisation of SNAP-tag-labeled protein")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100000> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100000> "2026-01-29T12:29:23Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100000> "SNAP-tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100000> <http://purl.obolibrary.org/obo/FBbi_00000079>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100001> (HaloTag)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18533659") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100001> "A visualisation method that detects a protein self-labelled with a HaloTag. A HaloTag is a haloalkane dehydrogenase that can covalently bind a fluorescent synthetic ligand.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100001> "visualization of HaloTag-labeled protein")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100001> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100001> "2026-01-29T12:48:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100001> "HaloTag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100001> <http://purl.obolibrary.org/obo/FBbi_00000079>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100002> (autofluorescence)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16216779") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100002> "A visualization method that detects the natural fluorescence emitted by endogenous biological structures or compounds.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100002> "visualization of autofluorescence")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100002> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100002> "2026-01-29T13:26:04Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100002> "autofluorescence")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100002> <http://purl.obolibrary.org/obo/FBbi_00000397>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100003> (chlorophyll autofluorescence)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:32455605") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100003> "A visualization method that detects the fluorescence emitted by chlorophyll.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100003> "visualization of chlorophyll autofluorescence")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100003> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100003> "2026-01-29T13:31:14Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100003> "chlorophyll autofluorescence")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100003> <http://purl.obolibrary.org/obo/FBbi_00100002>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100004> (mTurquoise)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20081836") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100004> "A visualization method that detects proteins labeled with the mTurquoise fluorescent protein tag from Aequorea victoria.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100004> "visualization of mTurquoise")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100004> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100004> "2026-01-29T13:41:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100004> "mTurquoise")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100004> <http://purl.obolibrary.org/obo/FBbi_00000436>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100005> (mScarlet)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27869816") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100005> "A visualization method that detects proteins labeled with the mScarlet monomeric red fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100005> "visualization of mScarlet")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100005> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100005> "2026-01-29T13:58:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100005> "mScarlet")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100005> <http://purl.obolibrary.org/obo/FBbi_00000405>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
