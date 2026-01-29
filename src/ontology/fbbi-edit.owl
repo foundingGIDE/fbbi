@@ -6347,8 +6347,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00050000> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00100000> (SNAP-tag)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21924508") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100000> "A visualisation method that detects a protein self-labelled with a SNAP-tag. A SNAP-tag is an engineered version of the mammalian enzyme AGT that can covalently bind O6-benzylguanine-based ligands.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100000> "visualisation of SNAP-tag-labeled protein")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21924508") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100000> "A visualization method that detects a protein self-labelled with a SNAP-tag. A SNAP-tag is an engineered version of the mammalian enzyme AGT that can covalently bind O6-benzylguanine-based ligands.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100000> "visualization of SNAP-tag-labeled protein")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100000> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100000> "2026-01-29T12:29:23Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100000> "SNAP-tag")
@@ -6356,7 +6356,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100000> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00100001> (HaloTag)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18533659") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100001> "A visualisation method that detects a protein self-labelled with a HaloTag. A HaloTag is a haloalkane dehydrogenase that can covalently bind a fluorescent synthetic ligand.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:18533659") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100001> "A visualization method that detects a protein self-labelled with a HaloTag. A HaloTag is a haloalkane dehydrogenase that can covalently bind a fluorescent synthetic ligand.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100001> "visualization of HaloTag-labeled protein")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100001> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100001> "2026-01-29T12:48:07Z"^^xsd:dateTime)
