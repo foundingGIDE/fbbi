@@ -656,6 +656,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -1374,7 +1381,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000080> "BFP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000080> "FBbi:00000080")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000080> "EBFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000080> <http://purl.obolibrary.org/obo/FBbi_00000435>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000080> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000080> <http://purl.obolibrary.org/obo/FBbi_00100006>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000081> (ECFP)
 
@@ -1383,7 +1391,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000081> "CFP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000081> "FBbi:00000081")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000081> "ECFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000081> <http://purl.obolibrary.org/obo/FBbi_00000436>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000081> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000081> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000082> (EGFP)
 
@@ -1392,7 +1401,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000082> "GFP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000082> "FBbi:00000082")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000082> "EGFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000082> <http://purl.obolibrary.org/obo/FBbi_00000437>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000082> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000082> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000083> (Aequorea victoria red fluorescent protein tag)
 
@@ -1409,7 +1419,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000084> "YFP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000084> "FBbi:00000084")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000084> "EYFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000084> <http://purl.obolibrary.org/obo/FBbi_00000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000084> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000084> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000085> (DsRed)
 
@@ -1418,7 +1429,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000085> "DsRed")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000085> "FBbi:00000085")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000085> "DsRed")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000085> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000085> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000085> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000086> (c-MYC peptide tag)
 
@@ -4247,14 +4259,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000419> "freeze_fracture/freeze_etch")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000419> <http://purl.obolibrary.org/obo/FBbi_00000013>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000420> (fluorescent protein derived from Aequorea victoria)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000420> (fluorescent protein derived from Aequorea)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000420> "visualization of fluorescent protein derived from Aequorea victoria")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000420> "visualization of fluorescent protein derived from Aequorea")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000420> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000420> "2010-03-17T01:59:59Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000420> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000420> "FBbi:00000420")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000420> "fluorescent protein derived from Aequorea victoria")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000420> "fluorescent protein derived from Aequorea")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000420> <http://purl.obolibrary.org/obo/FBbi_00000405>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000421> (membrane-permeant probe)
@@ -4405,7 +4417,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000435> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000435> "FBbi:00000435")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000435> "Blue fluorescent protein from Aequorea victoria")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000435> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000435> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000420> <http://purl.obolibrary.org/obo/FBbi_00100006>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000436> (Cyan fluorescent protein from Aequorea)
 
@@ -4415,7 +4427,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000436> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000436> "FBbi:00000436")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000436> "Cyan fluorescent protein from Aequorea")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000436> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000436> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000420> <http://purl.obolibrary.org/obo/FBbi_00100008>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000437> (Green fluorescent protein from Aequorea)
 
@@ -4425,7 +4437,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000437> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000437> "FBbi:00000437")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000437> "Green fluorescent protein from Aequorea")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000437> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000437> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000420> <http://purl.obolibrary.org/obo/FBbi_00100007>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000438> (DiIC16)
 
@@ -4445,7 +4457,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000439> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000439> "FBbi:00000439")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000439> "Yellow fluorescent protein from Aequorea")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000439> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000439> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000420> <http://purl.obolibrary.org/obo/FBbi_00100009>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000440> (Alexa Fluor 488)
 
@@ -4667,7 +4679,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000461> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000461> "FBbi:00000461")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000461> "AzuriteFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000461> <http://purl.obolibrary.org/obo/FBbi_00000435>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000461> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000461> <http://purl.obolibrary.org/obo/FBbi_00100006>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000462> (SiriusFP)
 
@@ -4677,7 +4690,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000462> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000462> "FBbi:00000462")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000462> "SiriusFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000462> <http://purl.obolibrary.org/obo/FBbi_00000435>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000462> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000462> <http://purl.obolibrary.org/obo/FBbi_00100006>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000463> (non-immunological protein probe)
 
@@ -4737,7 +4751,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000468> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000468> "FBbi:00000468")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000468> "CeruleanFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000468> <http://purl.obolibrary.org/obo/FBbi_00000436>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000468> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000468> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000469> (CyPet)
 
@@ -4747,7 +4762,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000469> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000469> "FBbi:00000469")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000469> "CyPet")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000469> <http://purl.obolibrary.org/obo/FBbi_00000436>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000469> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000469> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000470> (SCFP)
 
@@ -4757,7 +4773,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000470> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000470> "FBbi:00000470")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000470> "SCFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000470> <http://purl.obolibrary.org/obo/FBbi_00000436>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000470> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000470> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000471> (EmeraldFP)
 
@@ -4767,7 +4784,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000471> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000471> "FBbi:00000471")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000471> "EmeraldFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000471> <http://purl.obolibrary.org/obo/FBbi_00000437>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000471> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000471> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000472> (SuperfolderFP)
 
@@ -4777,7 +4795,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000472> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000472> "FBbi:00000472")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000472> "SuperfolderFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000472> <http://purl.obolibrary.org/obo/FBbi_00000437>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000472> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000472> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000473> (T-SapphireFP)
 
@@ -4787,7 +4806,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000473> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000473> "FBbi:00000473")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000473> "T-SapphireFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000473> <http://purl.obolibrary.org/obo/FBbi_00000437>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000473> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000473> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000474> (CitrineFP)
 
@@ -4797,7 +4817,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000474> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000474> "FBbi:00000474")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000474> "CitrineFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000474> <http://purl.obolibrary.org/obo/FBbi_00000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000474> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000474> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000475> (SYFP)
 
@@ -4807,7 +4828,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000475> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000475> "FBbi:00000475")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000475> "SYFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000475> <http://purl.obolibrary.org/obo/FBbi_00000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000475> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000475> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000476> (TopazFP)
 
@@ -4817,7 +4839,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000476> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000476> "FBbi:00000476")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000476> "TopazFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000476> <http://purl.obolibrary.org/obo/FBbi_00000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000476> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000476> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000477> (VenusFP)
 
@@ -4827,7 +4850,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000477> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000477> "FBbi:00000477")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000477> "VenusFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000477> <http://purl.obolibrary.org/obo/FBbi_00000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000477> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000477> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000478> (yPet)
 
@@ -4837,7 +4861,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000478> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000478> "FBbi:00000478")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000478> "yPet")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000478> <http://purl.obolibrary.org/obo/FBbi_00000439>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000478> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000478> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000479> (Blue fluorescent proteins from Anthozoa)
 
@@ -4847,7 +4872,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000479> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000479> "FBbi:00000479")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000479> "Blue fluorescent proteins from Anthozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000479> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000479> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100006>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000480> (Cyan fluorescent proteins from Anthozoa)
 
@@ -4857,7 +4882,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000480> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000480> "FBbi:00000480")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000480> "Cyan fluorescent proteins from Anthozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000480> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000480> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100008>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000481> (Green fluorescent proteins from Anthozoa)
 
@@ -4867,7 +4892,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000481> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000481> "FBbi:00000481")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000481> "Green fluorescent proteins from Anthozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000481> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000481> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100007>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000482> (Orange fluorescent proteins from Anthozoa)
 
@@ -4877,7 +4902,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000482> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000482> "FBbi:00000482")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000482> "Orange fluorescent proteins from Anthozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000482> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000482> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100011>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000483> (Red fluorescent proteins from Anthozoa)
 
@@ -4887,7 +4912,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000483> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000483> "FBbi:00000483")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000483> "Red fluorescent proteins from Anthozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000483> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000483> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100012>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000484> (Far-red fluorescent proteins from Anthozoa)
 
@@ -4897,6 +4922,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000484> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000484> "FBbi:00000484")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000484> "Far-red fluorescent proteins from Anthozoa")
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000484> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100010>))
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000484> <http://purl.obolibrary.org/obo/FBbi_00000433>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000485> (Yellow fluorescent proteins from Anthozoa)
@@ -4907,7 +4933,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000485> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000485> "FBbi:00000485")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000485> "Yellow fluorescent proteins from Anthozoa")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000485> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000485> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000433> <http://purl.obolibrary.org/obo/FBbi_00100009>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000486> (mTagBFP)
 
@@ -4917,7 +4943,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000486> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000486> "FBbi:00000486")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000486> "mTagBFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000486> <http://purl.obolibrary.org/obo/FBbi_00000479>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000486> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000486> <http://purl.obolibrary.org/obo/FBbi_00100006>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000487> (AmCyanFP)
 
@@ -4927,7 +4954,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000487> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000487> "FBbi:00000487")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000487> "AmCyanFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000487> <http://purl.obolibrary.org/obo/FBbi_00000480>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000487> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000487> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000488> (mCyFP)
 
@@ -4937,7 +4965,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000488> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000488> "FBbi:00000488")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000488> "mCyFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000488> <http://purl.obolibrary.org/obo/FBbi_00000480>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000488> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000488> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000489> (mTFP1)
 
@@ -4947,7 +4976,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000489> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000489> "FBbi:00000489")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000489> "mTFP1")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000489> <http://purl.obolibrary.org/obo/FBbi_00000480>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000489> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000489> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000490> (TagCFP)
 
@@ -4957,7 +4987,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000490> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000490> "FBbi:00000490")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000490> "TagCFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000490> <http://purl.obolibrary.org/obo/FBbi_00000480>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000490> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000490> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000491> (AQ143)
 
@@ -4967,7 +4998,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000491> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000491> "FBbi:00000491")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000491> "AQ143")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000491> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000491> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000491> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000492> (HcRed-tandemFP)
 
@@ -4977,7 +5009,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000492> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000492> "FBbi:00000492")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000492> "HcRed-tandemFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000492> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000492> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000492> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000493> (KatushkaFP)
 
@@ -4987,7 +5020,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000493> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000493> "FBbi:00000493")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000493> "KatushkaFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000493> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000493> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000493> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000494> (mKateFP)
 
@@ -4997,7 +5031,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000494> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000494> "FBbi:00000494")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000494> "mKateFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000494> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000494> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000494> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000495> (mKate2FP)
 
@@ -5007,7 +5042,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000495> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000495> "FBbi:00000495")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000495> "mKate2FP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000495> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000495> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000495> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000496> (mPlumFP)
 
@@ -5017,7 +5053,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000496> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000496> "FBbi:00000496")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000496> "mPlumFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000496> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000496> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000496> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000497> (tdKatuskaFP)
 
@@ -5027,7 +5064,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000497> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000497> "FBbi:00000497")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000497> "tdKatuskaFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000497> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000497> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000497> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000498> (tdRFP639)
 
@@ -5037,7 +5075,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000498> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000498> "FBbi:00000498")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000498> "tdRFP639")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000498> <http://purl.obolibrary.org/obo/FBbi_00000484>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000498> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000498> <http://purl.obolibrary.org/obo/FBbi_00100010>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000499> (AceFP)
 
@@ -5047,7 +5086,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000499> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000499> "FBbi:00000499")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000499> "AceFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000499> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000499> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000499> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000500> (Azami GreenFP)
 
@@ -5057,7 +5097,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000500> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000500> "FBbi:00000500")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000500> "Azami GreenFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000500> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000500> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000500> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000501> (CopGFP)
 
@@ -5067,7 +5108,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000501> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000501> "FBbi:00000501")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000501> "CopGFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000501> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000501> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000501> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000502> (mWasabiFP)
 
@@ -5077,7 +5119,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000502> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000502> "FBbi:00000502")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000502> "mWasabiFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000502> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000502> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000502> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000503> (TagGFP)
 
@@ -5087,7 +5130,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000503> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000503> "FBbi:00000503")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000503> "TagGFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000503> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000503> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000503> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000504> (TagGFP2)
 
@@ -5097,7 +5141,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000504> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000504> "FBbi:00000504")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000504> "TagGFP2")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000504> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000504> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000504> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000505> (ZsGreenFP)
 
@@ -5107,7 +5152,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000505> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000505> "FBbi:00000505")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000505> "ZsGreenFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000505> <http://purl.obolibrary.org/obo/FBbi_00000481>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000505> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000505> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000506> (DsRed-ExpressFP)
 
@@ -5117,7 +5163,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000506> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000506> "FBbi:00000506")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000506> "DsRed-ExpressFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000506> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000506> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000506> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000507> (DsRed-Express2FP)
 
@@ -5127,7 +5174,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000507> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000507> "FBbi:00000507")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000507> "DsRed-Express2FP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000507> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000507> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000507> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000508> (DsRed-MaxFP)
 
@@ -5137,7 +5185,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000508> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000508> "FBbi:00000508")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000508> "DsRed-MaxFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000508> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000508> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000508> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000509> (DsRed-monomerFP)
 
@@ -5147,7 +5196,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000509> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000509> "FBbi:00000509")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000509> "DsRed-monomerFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000509> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000509> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000509> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000510> (DsRed2FP)
 
@@ -5157,7 +5207,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000510> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000510> "FBbi:00000510")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000510> "DsRed2FP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000510> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000510> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000510> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000511> (dTomatoFP)
 
@@ -5167,7 +5218,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000511> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000511> "FBbi:00000511")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000511> "dTomatoFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000511> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000511> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000511> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000512> (Kusabira OrangeFP)
 
@@ -5177,7 +5229,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000512> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000512> "FBbi:00000512")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000512> "Kusabira OrangeFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000512> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000512> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000512> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000513> (Kusabira OrangeFP2)
 
@@ -5187,7 +5240,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000513> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000513> "FBbi:00000513")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000513> "Kusabira OrangeFP2")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000513> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000513> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000513> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000514> (mOrangeFP)
 
@@ -5197,7 +5251,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000514> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000514> "FBbi:00000514")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000514> "mOrangeFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000514> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000514> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000514> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000515> (mOrange2FP)
 
@@ -5207,7 +5262,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000515> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000515> "FBbi:00000515")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000515> "mOrange2FP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000515> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000515> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000515> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000516> (TagRFP)
 
@@ -5217,7 +5273,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000516> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000516> "FBbi:00000516")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000516> "TagRFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000516> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000516> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000516> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000517> (TagRFP-T)
 
@@ -5227,7 +5284,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000517> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000517> "FBbi:00000517")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000517> "TagRFP-T")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000517> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000517> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000517> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000518> (tdTomatoFP)
 
@@ -5237,7 +5295,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000518> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000518> "FBbi:00000518")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000518> "tdTomatoFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000518> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000518> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000518> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000519> (turboRFP)
 
@@ -5247,7 +5306,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000519> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000519> "FBbi:00000519")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000519> "turboRFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000519> <http://purl.obolibrary.org/obo/FBbi_00000482>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000519> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000519> <http://purl.obolibrary.org/obo/FBbi_00100011>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000520> (AsRed2FP)
 
@@ -5257,7 +5317,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000520> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000520> "FBbi:00000520")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000520> "AsRed2FP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000520> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000520> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000520> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000521> (eqFP611)
 
@@ -5267,7 +5328,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000521> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000521> "FBbi:00000521")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000521> "eqFP611")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000521> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000521> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000521> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000522> (HcRed1FP)
 
@@ -5277,7 +5339,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000522> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000522> "FBbi:00000522")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000522> "HcRed1FP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000522> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000522> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000522> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000523> (JRedFP)
 
@@ -5287,7 +5350,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000523> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000523> "FBbi:00000523")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000523> "JRedFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000523> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000523> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000523> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000524> (mAppleFP)
 
@@ -5297,7 +5361,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000524> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000524> "FBbi:00000524")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000524> "mAppleFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000524> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000524> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000524> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000525> (mCherryFP)
 
@@ -5307,7 +5372,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000525> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000525> "FBbi:00000525")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000525> "mCherryFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000525> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000525> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000525> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000526> (mRasberryFP)
 
@@ -5317,7 +5383,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000526> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000526> "FBbi:00000526")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000526> "mRasberryFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000526> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000526> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000526> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000527> (mRFP1)
 
@@ -5327,7 +5394,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000527> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000527> "FBbi:00000527")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000527> "mRFP1")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000527> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000527> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000527> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000528> (mRubyFP)
 
@@ -5337,7 +5405,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000528> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000528> "FBbi:00000528")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000528> "mRubyFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000528> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000528> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000528> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000529> (mStrawberryFP)
 
@@ -5347,7 +5416,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000529> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000529> "FBbi:00000529")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000529> "mStrawberryFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000529> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000529> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000529> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000530> (tdRFP611)
 
@@ -5357,7 +5427,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000530> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000530> "FBbi:00000530")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000530> "tdRFP611")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000530> <http://purl.obolibrary.org/obo/FBbi_00000483>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000530> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000530> <http://purl.obolibrary.org/obo/FBbi_00100012>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000531> (PhiYFP)
 
@@ -5367,7 +5438,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000531> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000531> "FBbi:00000531")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000531> "PhiYFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000531> <http://purl.obolibrary.org/obo/FBbi_00000485>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000531> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000531> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000532> (TagYFP)
 
@@ -5377,7 +5449,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000532> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000532> "FBbi:00000532")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000532> "TagYFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000532> <http://purl.obolibrary.org/obo/FBbi_00000485>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000532> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000532> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000533> (TurboYFP)
 
@@ -5387,7 +5460,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000533> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000533> "FBbi:00000533")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000533> "TurboYFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000533> <http://purl.obolibrary.org/obo/FBbi_00000485>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000533> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000533> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000534> (ZsYellowFP)
 
@@ -5397,7 +5471,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000534> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000534> "FBbi:00000534")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000534> "ZsYellowFP")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000534> <http://purl.obolibrary.org/obo/FBbi_00000485>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000534> <http://purl.obolibrary.org/obo/FBbi_00000433>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000534> <http://purl.obolibrary.org/obo/FBbi_00100009>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000535> (fluorescent protein timer)
 
@@ -6178,7 +6253,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date>
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000615> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000615> "FBbi:00000615")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000615> "miniSOG")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000615> <http://purl.obolibrary.org/obo/FBbi_00000614>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000615> <http://purl.obolibrary.org/obo/FBbi_00000612>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000615> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000616> (evanescent wave scattering)
 
@@ -6388,7 +6464,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100004> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100004> "2026-01-29T13:41:49Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100004> "mTurquoise")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100004> <http://purl.obolibrary.org/obo/FBbi_00000436>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100004> <http://purl.obolibrary.org/obo/FBbi_00000420>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100004> <http://purl.obolibrary.org/obo/FBbi_00100008>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00100005> (mScarlet)
 
@@ -6397,7 +6474,70 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100005> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100005> "2026-01-29T13:58:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100005> "mScarlet")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100005> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100005> <http://purl.obolibrary.org/obo/FBbi_00100012>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100006> (blue fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100006> "A visualization method that detects a blue fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100006> "visualization of blue fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100006> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100006> "2026-01-30T14:25:57Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100006> "blue fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100006> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100007> (green fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100007> "A visualization method that detects a green fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100007> "visualization of green fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100007> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100007> "2026-01-30T14:27:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100007> "green fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100007> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100008> (cyan fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100008> "A visualization method that detects a cyan fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100008> "visualization of cyan fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100008> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100008> "2026-01-30T14:29:10Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100008> "cyan fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100008> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100009> (yellow fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100009> "A visualization method that detects a yellow fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100009> "visualization of yellow fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100009> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100009> "2026-01-30T14:30:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100009> "yellow fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100009> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100010> (far-red fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100010> "A visualization method that detects a far-red fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100010> "visualization of far-red fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100010> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100010> "2026-01-30T14:31:09Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100010> "far-red fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100010> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100011> (orange fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100011> "A visualization method that detects an orange fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100011> "visulization of orange fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100011> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100011> "2026-01-30T14:32:03Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100011> "orange fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100011> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100012> (red fluorescent protein tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100012> "A visualization method that detects a red fluorescent protein tag.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100012> "visualization of red fluorescent protein tag")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100012> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100012> "2026-01-30T14:32:53Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100012> "red fluorescent protein tag")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100012> <http://purl.obolibrary.org/obo/FBbi_00000405>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
