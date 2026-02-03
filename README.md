@@ -27,7 +27,8 @@ The ontology is known to be used by:
 * [FlyBase](https://flybase.org/);
 * [Virtual Fly Brain](https://wwwvirtualflybrain.org/);
 * the [Cell Image Library](https://www.cellimagelibrary.org/);
-* the [Human Cell Atlas](https://www.humancellatlas.org/).
+* the [Human Cell Atlas](https://www.humancellatlas.org/);
+* the [FoundingGIDE project](https://founding-gide.eurobioimaging.eu).
 
 
 ## Versions
