@@ -665,6 +665,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100009>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100010>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -6545,6 +6546,14 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100012> "2026-01-30T14:32:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100012> "red fluorescent protein tag")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100012> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100013> (wide-field fluorescence microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100013> "A mode of fluorescence microscopy where the entire observed field is illuminated.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100013> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100013> "2026-02-11T16:22:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100013> "wide-field fluorescence microscopy")
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00100013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000246> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000277>)))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
