@@ -6293,24 +6293,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000618> "ground state depletion scanning  (GSD)")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000618> <http://purl.obolibrary.org/obo/FBbi_00000321>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000619> (nearfield illumination)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000619> (evanescent wave microscopy nearfield illumination)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000619> "A nearfield illumination method that uses evanescent wave microscopy.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000619> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000619> "2011-05-23T10:43:15Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000619> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000619> "FBbi:00000619")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000619> "nearfield illumination")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000619> <http://purl.obolibrary.org/obo/FBbi_00000268>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000619> "evanescent wave microscopy nearfield illumination")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000619> <http://purl.obolibrary.org/obo/FBbi_00000281>)
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000619> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000617>))
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000620> (nearfield illumination)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000620> (evanescent wave scattering nearfield illumination)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000620> "A nearfield illumination method that uses evanescent wave scattering.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000620> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000620> "2011-05-23T10:44:03Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000620> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000620> "FBbi:00000620")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000620> "nearfield illumination")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000620> <http://purl.obolibrary.org/obo/FBbi_00000268>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000620> "evanescent wave scattering nearfield illumination")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000620> <http://purl.obolibrary.org/obo/FBbi_00000281>)
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000620> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000616>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000621> (freeze-substituted tissue)
