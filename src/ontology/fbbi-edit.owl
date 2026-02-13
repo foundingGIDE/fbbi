@@ -6331,13 +6331,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000622> "high-voltage electron microscopy (HVEM)")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000622> <http://purl.obolibrary.org/obo/FBbi_00000258>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000623> (intermediate voltage electron microacopy (IVEM))
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000623> (intermediate voltage electron microscopy (IVEM))
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000623> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000623> "2011-05-23T10:53:45Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000623> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000623> "FBbi:00000623")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000623> "intermediate voltage electron microacopy (IVEM)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000623> "intermediate voltage electron microscopy (IVEM)")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000623> <http://purl.obolibrary.org/obo/FBbi_00000258>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00001000> (radiography)
