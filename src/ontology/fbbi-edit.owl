@@ -760,13 +760,13 @@ TransitiveObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>)
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000000> (dummy term)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000000> (obsolete dummy term)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000000> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000000> "2010-03-07T02:05:26Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000000> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000000> "FBbi:00000000")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000000> "dummy term")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000000> "obsolete dummy term")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000000> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000001> (sample preparation method)
@@ -992,11 +992,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000031> "visualization method")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000031> <http://purl.obolibrary.org/obo/FBbi_root_00000000>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000032> (endogenous substrate, non-vital dye)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000032> (obsolete endogenous substrate, non-vital dye)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000032> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000032> "FBbi:00000032")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000032> "endogenous substrate, non-vital dye")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000032> "obsolete endogenous substrate, non-vital dye")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000032> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000033> (diagram)
@@ -1022,11 +1022,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000035> "cresyl fast violet")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000035> <http://purl.obolibrary.org/obo/FBbi_00000567>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000036> (endogenous substrate, diaminobenzidine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000036> (obsolete endogenous substrate, diaminobenzidine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000036> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000036> "FBbi:00000036")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000036> "endogenous substrate, diaminobenzidine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000036> "obsolete endogenous substrate, diaminobenzidine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000036> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000037> (eosin)
@@ -1136,11 +1136,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000049> "toluidine blue")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000049> <http://purl.obolibrary.org/obo/FBbi_00000567>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000050> (endogenous substrate, vital dye)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000050> (obsolete endogenous substrate, vital dye)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000050> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000050> "FBbi:00000050")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000050> "endogenous substrate, vital dye")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000050> "obsolete endogenous substrate, vital dye")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000050> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000051> (acridine orange)
@@ -1292,33 +1292,33 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000068> "YO-PRO-1")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000068> <http://purl.obolibrary.org/obo/FBbi_00000422>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000069> (endogenous substrate, dye conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000069> (obsolete endogenous substrate, dye conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000069> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000069> "FBbi:00000069")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000069> "endogenous substrate, dye conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000069> "obsolete endogenous substrate, dye conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000069> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000070> (endogenous substrate, acidotropic-fluor conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000070> (obsolete endogenous substrate, acidotropic-fluor conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000070> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000070> "LysoTracker")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000070> "FBbi:00000070")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000070> "endogenous substrate, acidotropic-fluor conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000070> "obsolete endogenous substrate, acidotropic-fluor conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000070> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000071> (endogenous substrate, lectin-fluor conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000071> (obsolete endogenous substrate, lectin-fluor conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000071> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000071> "FBbi:00000071")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000071> "endogenous substrate, lectin-fluor conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000071> "obsolete endogenous substrate, lectin-fluor conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000071> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000072> (endogenous substrate, lectin-gold conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000072> (obsolete endogenous substrate, lectin-gold conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000072> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000072> "FBbi:00000072")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000072> "endogenous substrate, lectin-gold conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000072> "obsolete endogenous substrate, lectin-gold conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000072> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000073> (taxol)
@@ -1329,18 +1329,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000073> "taxol")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000073> <http://purl.obolibrary.org/obo/FBbi_00000459>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000074> (endogenous substrate, phalloidin-fluor conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000074> (obsolete endogenous substrate, phalloidin-fluor conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000074> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000074> "FBbi:00000074")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000074> "endogenous substrate, phalloidin-fluor conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000074> "obsolete endogenous substrate, phalloidin-fluor conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000074> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000075> (exogenous label)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000075> (obsolete exogenous label)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000075> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000075> "FBbi:00000075")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000075> "exogenous label")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000075> "obsolete exogenous label")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000075> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000076> (genetically encoded enzyme)
@@ -1407,12 +1407,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000082> "E
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000082> <http://purl.obolibrary.org/obo/FBbi_00000420>)
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000082> <http://purl.obolibrary.org/obo/FBbi_00100007>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000083> (Aequorea victoria red fluorescent protein tag)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000083> (obsolete Aequorea victoria red fluorescent protein tag)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000083> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000083> "RFP")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000083> "FBbi:00000083")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000083> "Aequorea victoria red fluorescent protein tag")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000083> "obsolete Aequorea victoria red fluorescent protein tag")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000083> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000084> (EYFP)
@@ -1453,7 +1453,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000087> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000088> (intracellular filling)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000088> "visualization of the connected regions of a cell by filling with a label")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000088> "Visualization of the connected regions of a cell by filling with a label")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000088> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000088> "FBbi:00000088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000088> "intracellular filling")
@@ -1515,32 +1515,32 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000095> "fluor conjugated actin fill")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000095> <http://purl.obolibrary.org/obo/FBbi_00000094>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000096> (Alexa Fluor 488 actin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000096> (obsolete Alexa Fluor 488 actin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000096> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000096> "FBbi:00000096")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000096> "Alexa Fluor 488 actin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000096> "obsolete Alexa Fluor 488 actin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000096> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000097> (Alexa Fluor 568 actin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000097> (obsolete Alexa Fluor 568 actin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000097> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000097> "FBbi:00000097")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000097> "Alexa Fluor 568 actin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000097> "obsolete Alexa Fluor 568 actin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000097> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000098> (fluoresceine actin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000098> (obsolete fluoresceine actin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000098> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000098> "FBbi:00000098")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000098> "fluoresceine actin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000098> "obsolete fluoresceine actin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000098> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000099> (rhodamine actin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000099> (obsolete rhodamine actin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000099> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000099> "FBbi:00000099")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000099> "rhodamine actin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000099> "obsolete rhodamine actin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000099> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000100> (phalloidin)
@@ -1551,60 +1551,60 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000100> "phalloidin")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000100> <http://purl.obolibrary.org/obo/FBbi_00000459>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000101> (Alexa Fluor 350 phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000101> (obsolete Alexa Fluor 350 phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000101> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000101> "FBbi:00000101")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000101> "Alexa Fluor 350 phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000101> "obsolete Alexa Fluor 350 phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000101> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000102> (Alexa Fluor 488 phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000102> (obsolete Alexa Fluor 488 phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000102> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000102> "FBbi:00000102")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000102> "Alexa Fluor 488 phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000102> "obsolete Alexa Fluor 488 phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000102> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000103> (eosin phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000103> (obsolete eosin phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000103> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000103> "FBbi:00000103")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000103> "eosin phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000103> "obsolete eosin phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000103> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000104> (fluoresceine phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000104> (obsolete fluoresceine phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000104> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000104> "FBbi:00000104")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000104> "fluoresceine phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000104> "obsolete fluoresceine phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000104> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000105> (Oregon Green 488 phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000105> (obsolete Oregon Green 488 phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000105> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000105> "FBbi:00000105")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000105> "Oregon Green 488 phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000105> "obsolete Oregon Green 488 phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000105> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000106> (Oregon Green 514 phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000106> (obsolete Oregon Green 514 phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000106> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000106> "FBbi:00000106")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000106> "Oregon Green 514 phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000106> "obsolete Oregon Green 514 phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000106> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000107> (rhodamine phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000107> (obsolete rhodamine phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000107> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000107> "FBbi:00000107")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000107> "rhodamine phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000107> "obsolete rhodamine phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000107> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000108> (Texas Red-X phalloidin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000108> (obsolete Texas Red-X phalloidin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000108> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000108> "FBbi:00000108")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000108> "Texas Red-X phalloidin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000108> "obsolete Texas Red-X phalloidin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000108> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000109> (fluor conjugated tubulin fill)
@@ -1614,18 +1614,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000109> "fluor conjugated tubulin fill")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000109> <http://purl.obolibrary.org/obo/FBbi_00000094>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000110> (Oregon Green 514 tubulin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000110> (obsolete Oregon Green 514 tubulin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000110> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000110> "FBbi:00000110")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000110> "Oregon Green 514 tubulin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000110> "obsolete Oregon Green 514 tubulin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000110> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000111> (X-rhodamine tubulin fill)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000111> (obsolete X-rhodamine tubulin fill)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000111> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000111> "FBbi:00000111")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000111> "X-rhodamine tubulin fill")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000111> "obsolete X-rhodamine tubulin fill")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000111> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000112> (probe for lipid)
@@ -1762,7 +1762,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000128> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000129> (glycerol permeabilized)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000129> "tissue made permeable by the action of glycerol")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000129> "Tissue made permeable by the action of glycerol")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000129> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000129> "2010-03-07T02:37:12Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000129> "image")
@@ -1779,11 +1779,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000130> "labeled primary antibody")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000130> <http://purl.obolibrary.org/obo/FBbi_00000401>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000131> (primary antibody-enzyme conjugate, substrate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000131> (obsolete primary antibody-enzyme conjugate, substrate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000131> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000131> "FBbi:00000131")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000131> "primary antibody-enzyme conjugate, substrate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000131> "obsolete primary antibody-enzyme conjugate, substrate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000131> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000132> (alkaline phosphatase)
@@ -1794,39 +1794,39 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000132> "alkaline phosphatase")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000132> <http://purl.obolibrary.org/obo/FBbi_00000456>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000133> (primary antibody-alkaline phosphastase conjugate, DAB)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000133> (obsolete primary antibody-alkaline phosphastase conjugate, DAB)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000133> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000133> "FBbi:00000133")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000133> "primary antibody-alkaline phosphastase conjugate, DAB")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000133> "obsolete primary antibody-alkaline phosphastase conjugate, DAB")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000133> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000134> (primary antibody-alkaline phosphastase conjugate, ELF 97 phosphate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000134> (obsolete primary antibody-alkaline phosphastase conjugate, ELF 97 phosphate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000134> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000134> "FBbi:00000134")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000134> "primary antibody-alkaline phosphastase conjugate, ELF 97 phosphate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000134> "obsolete primary antibody-alkaline phosphastase conjugate, ELF 97 phosphate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000134> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000135> (primary antibody-alkaline phosphastase conjugate, Vector Black)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000135> (obsolete primary antibody-alkaline phosphastase conjugate, Vector Black)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000135> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000135> "FBbi:00000135")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000135> "primary antibody-alkaline phosphastase conjugate, Vector Black")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000135> "obsolete primary antibody-alkaline phosphastase conjugate, Vector Black")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000135> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000136> (primary antibody-alkaline phosphastase conjugate, Vector Blue)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000136> (obsolete primary antibody-alkaline phosphastase conjugate, Vector Blue)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000136> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000136> "FBbi:00000136")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000136> "primary antibody-alkaline phosphastase conjugate, Vector Blue")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000136> "obsolete primary antibody-alkaline phosphastase conjugate, Vector Blue")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000136> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000137> (primary antibody-alkaline phosphastase conjugate, Vector Red)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000137> (obsolete primary antibody-alkaline phosphastase conjugate, Vector Red)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000137> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000137> "FBbi:00000137")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000137> "primary antibody-alkaline phosphastase conjugate, Vector Red")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000137> "obsolete primary antibody-alkaline phosphastase conjugate, Vector Red")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000137> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000138> (horseradish peroxidase)
@@ -1837,131 +1837,131 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000138> "horseradish peroxidase")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000138> <http://purl.obolibrary.org/obo/FBbi_00000456>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000139> (primary antibody-horseradish peroxidase, 4-chloro-1-naphthol)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000139> (obsolete primary antibody-horseradish peroxidase, 4-chloro-1-naphthol)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000139> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000139> "FBbi:00000139")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000139> "primary antibody-horseradish peroxidase, 4-chloro-1-naphthol")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000139> "obsolete primary antibody-horseradish peroxidase, 4-chloro-1-naphthol")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000139> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000140> (primary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000140> (obsolete primary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000140> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000140> "FBbi:00000140")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000140> "primary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000140> "obsolete primary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000140> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000141> (primary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000141> (obsolete primary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000141> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000141> "FBbi:00000141")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000141> "primary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000141> "obsolete primary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000141> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000142> (primary antibody-horseradish peroxidase, Vector NovaRed)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000142> (obsolete primary antibody-horseradish peroxidase, Vector NovaRed)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000142> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000142> "FBbi:00000142")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000142> "primary antibody-horseradish peroxidase, Vector NovaRed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000142> "obsolete primary antibody-horseradish peroxidase, Vector NovaRed")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000142> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000143> (primary antibody-horseradish peroxidase, Vector SG)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000143> (obsolete primary antibody-horseradish peroxidase, Vector SG)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000143> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000143> "FBbi:00000143")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000143> "primary antibody-horseradish peroxidase, Vector SG")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000143> "obsolete primary antibody-horseradish peroxidase, Vector SG")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000143> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000144> (primary antibody-horseradish peroxidase, Vector VIP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000144> (obsolete primary antibody-horseradish peroxidase, Vector VIP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000144> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000144> "FBbi:00000144")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000144> "primary antibody-horseradish peroxidase, Vector VIP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000144> "obsolete primary antibody-horseradish peroxidase, Vector VIP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000144> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000145> (primary antibody-fluor conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000145> (obsolete primary antibody-fluor conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000145> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000145> "FBbi:00000145")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000145> "primary antibody-fluor conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000145> "obsolete primary antibody-fluor conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000145> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000146> (primary antibody-aminomethylcoumarin acetate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000146> (obsolete primary antibody-aminomethylcoumarin acetate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000146> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000146> "AMCA")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000146> "FBbi:00000146")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000146> "primary antibody-aminomethylcoumarin acetate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000146> "obsolete primary antibody-aminomethylcoumarin acetate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000146> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000147> (primary antibody-Cascade blue)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000147> (obsolete primary antibody-Cascade blue)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000147> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000147> "FBbi:00000147")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000147> "primary antibody-Cascade blue")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000147> "obsolete primary antibody-Cascade blue")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000147> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000148> (primary antibody-cyanine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000148> (obsolete primary antibody-cyanine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000148> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000148> "Cy2")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000148> "FBbi:00000148")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000148> "primary antibody-cyanine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000148> "obsolete primary antibody-cyanine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000148> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000149> (primary antibody-fluorescein isothiocyanate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000149> (obsolete primary antibody-fluorescein isothiocyanate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000149> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000149> "FITC")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000149> "FBbi:00000149")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000149> "primary antibody-fluorescein isothiocyanate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000149> "obsolete primary antibody-fluorescein isothiocyanate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000149> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000150> (primary antibody-indocarbocyanine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000150> (obsolete primary antibody-indocarbocyanine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000150> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000150> "Cy3")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000150> "FBbi:00000150")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000150> "primary antibody-indocarbocyanine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000150> "obsolete primary antibody-indocarbocyanine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000150> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000151> (primary antibody-indodicarbocyanine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000151> (obsolete primary antibody-indodicarbocyanine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000151> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000151> "Cy5")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000151> "FBbi:00000151")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000151> "primary antibody-indodicarbocyanine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000151> "obsolete primary antibody-indodicarbocyanine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000151> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000152> (primary antibody-rhodamine red-X)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000152> (obsolete primary antibody-rhodamine red-X)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000152> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000152> "RRX")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000152> "FBbi:00000152")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000152> "primary antibody-rhodamine red-X")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000152> "obsolete primary antibody-rhodamine red-X")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000152> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000153> (primary antibody-tetramethyl rhodamine isothiocyanate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000153> (obsolete primary antibody-tetramethyl rhodamine isothiocyanate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000153> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000153> "TRITC")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000153> "FBbi:00000153")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000153> "primary antibody-tetramethyl rhodamine isothiocyanate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000153> "obsolete primary antibody-tetramethyl rhodamine isothiocyanate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000153> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000154> (primary antibody-Texas Red)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000154> (obsolete primary antibody-Texas Red)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000154> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000154> "TR")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000154> "FBbi:00000154")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000154> "primary antibody-Texas Red")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000154> "obsolete primary antibody-Texas Red")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000154> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000155> (primary antibody-gold conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000155> (obsolete primary antibody-gold conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000155> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000155> "FBbi:00000155")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000155> "primary antibody-gold conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000155> "obsolete primary antibody-gold conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000155> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000156> (primary antibody plus labeled secondary antibody)
@@ -1972,11 +1972,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000156> "primary antibody plus labeled secondary antibody")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000156> <http://purl.obolibrary.org/obo/FBbi_00000401>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000157> (secondary antibody-enzyme conjugate, substrate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000157> (obsolete secondary antibody-enzyme conjugate, substrate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000157> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000157> "FBbi:00000157")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000157> "secondary antibody-enzyme conjugate, substrate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000157> "obsolete secondary antibody-enzyme conjugate, substrate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000157> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000158> (acid phosphatase)
@@ -1987,123 +1987,123 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000158> "acid phosphatase")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000158> <http://purl.obolibrary.org/obo/FBbi_00000456>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000159> (secondary antibody-alkaline phosphastase conjugate, DAB)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000159> (obsolete secondary antibody-alkaline phosphastase conjugate, DAB)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000159> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000159> "FBbi:00000159")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000159> "secondary antibody-alkaline phosphastase conjugate, DAB")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000159> "obsolete secondary antibody-alkaline phosphastase conjugate, DAB")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000159> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000160> (secondary antibody-alkaline phosphastase conjugate, ELF 97 phosphate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000160> (obsolete secondary antibody-alkaline phosphastase conjugate, ELF 97 phosphate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000160> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000160> "FBbi:00000160")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000160> "secondary antibody-alkaline phosphastase conjugate, ELF 97 phosphate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000160> "obsolete secondary antibody-alkaline phosphastase conjugate, ELF 97 phosphate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000160> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000161> (secondary antibody-alkaline phosphastase conjugate, Fast Blue B)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000161> (obsolete secondary antibody-alkaline phosphastase conjugate, Fast Blue B)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000161> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000161> "FBbi:00000161")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000161> "secondary antibody-alkaline phosphastase conjugate, Fast Blue B")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000161> "obsolete secondary antibody-alkaline phosphastase conjugate, Fast Blue B")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000161> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000162> (secondary antibody-alkaline phosphastase conjugate, Fast Red)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000162> (obsolete secondary antibody-alkaline phosphastase conjugate, Fast Red)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000162> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000162> "FBbi:00000162")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000162> "secondary antibody-alkaline phosphastase conjugate, Fast Red")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000162> "obsolete secondary antibody-alkaline phosphastase conjugate, Fast Red")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000162> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000163> (secondary antibody-alkaline phosphastase conjugate, INT)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000163> (obsolete secondary antibody-alkaline phosphastase conjugate, INT)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000163> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000163> "FBbi:00000163")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000163> "secondary antibody-alkaline phosphastase conjugate, INT")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000163> "obsolete secondary antibody-alkaline phosphastase conjugate, INT")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000163> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000164> (secondary antibody-alkaline phosphastase conjugate, Magenta Phos)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000164> (obsolete secondary antibody-alkaline phosphastase conjugate, Magenta Phos)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000164> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000164> "FBbi:00000164")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000164> "secondary antibody-alkaline phosphastase conjugate, Magenta Phos")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000164> "obsolete secondary antibody-alkaline phosphastase conjugate, Magenta Phos")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000164> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000165> (secondary antibody-alkaline phosphastase conjugate, NABP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000165> (obsolete secondary antibody-alkaline phosphastase conjugate, NABP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000165> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000165> "FBbi:00000165")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000165> "secondary antibody-alkaline phosphastase conjugate, NABP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000165> "obsolete secondary antibody-alkaline phosphastase conjugate, NABP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000165> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000166> (secondary antibody-alkaline phosphastase conjugate, NAGP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000166> (obsolete secondary antibody-alkaline phosphastase conjugate, NAGP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000166> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000166> "FBbi:00000166")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000166> "secondary antibody-alkaline phosphastase conjugate, NAGP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000166> "obsolete secondary antibody-alkaline phosphastase conjugate, NAGP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000166> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000167> (secondary antibody-alkaline phosphastase conjugate, NAMP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000167> (obsolete secondary antibody-alkaline phosphastase conjugate, NAMP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000167> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000167> "FBbi:00000167")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000167> "secondary antibody-alkaline phosphastase conjugate, NAMP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000167> "obsolete secondary antibody-alkaline phosphastase conjugate, NAMP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000167> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000168> (secondary antibody-alkaline phosphastase conjugate, NATP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000168> (obsolete secondary antibody-alkaline phosphastase conjugate, NATP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000168> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000168> "FBbi:00000168")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000168> "secondary antibody-alkaline phosphastase conjugate, NATP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000168> "obsolete secondary antibody-alkaline phosphastase conjugate, NATP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000168> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000169> (secondary antibody-alkaline phosphastase conjugate, NBT)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000169> (obsolete secondary antibody-alkaline phosphastase conjugate, NBT)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000169> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000169> "FBbi:00000169")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000169> "secondary antibody-alkaline phosphastase conjugate, NBT")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000169> "obsolete secondary antibody-alkaline phosphastase conjugate, NBT")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000169> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000170> (secondary antibody-alkaline phosphastase conjugate, Vector Black)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000170> (obsolete secondary antibody-alkaline phosphastase conjugate, Vector Black)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000170> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000170> "FBbi:00000170")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000170> "secondary antibody-alkaline phosphastase conjugate, Vector Black")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000170> "obsolete secondary antibody-alkaline phosphastase conjugate, Vector Black")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000170> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000171> (secondary antibody-alkaline phosphastase conjugate, Vector Blue)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000171> (obsolete secondary antibody-alkaline phosphastase conjugate, Vector Blue)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000171> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000171> "FBbi:00000171")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000171> "secondary antibody-alkaline phosphastase conjugate, Vector Blue")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000171> "obsolete secondary antibody-alkaline phosphastase conjugate, Vector Blue")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000171> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000172> (secondary antibody-alkaline phosphastase conjugate, Vector Red)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000172> (obsolete secondary antibody-alkaline phosphastase conjugate, Vector Red)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000172> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000172> "FBbi:00000172")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000172> "secondary antibody-alkaline phosphastase conjugate, Vector Red")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000172> "obsolete secondary antibody-alkaline phosphastase conjugate, Vector Red")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000172> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000173> (secondary antibody-alkaline phosphastase conjugate, BCIP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000173> (obsolete secondary antibody-alkaline phosphastase conjugate, BCIP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000173> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000173> "FBbi:00000173")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000173> "secondary antibody-alkaline phosphastase conjugate, BCIP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000173> "obsolete secondary antibody-alkaline phosphastase conjugate, BCIP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000173> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000174> (secondary antibody-beta-galactosidase, X-Gal)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000174> (obsolete secondary antibody-beta-galactosidase, X-Gal)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000174> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000174> "FBbi:00000174")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000174> "secondary antibody-beta-galactosidase, X-Gal")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000174> "obsolete secondary antibody-beta-galactosidase, X-Gal")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000174> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000175> (secondary antibody-beta-glucuronidase, X-gluc)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000175> (obsolete secondary antibody-beta-glucuronidase, X-gluc)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000175> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000175> "FBbi:00000175")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000175> "secondary antibody-beta-glucuronidase, X-gluc")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000175> "obsolete secondary antibody-beta-glucuronidase, X-gluc")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000175> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000176> (esterase)
@@ -2114,11 +2114,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000176> "esterase")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000176> <http://purl.obolibrary.org/obo/FBbi_00000456>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000177> (secondary antibody-esterase, Naphthol-AS-D-chloroacetate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000177> (obsolete secondary antibody-esterase, Naphthol-AS-D-chloroacetate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000177> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000177> "FBbi:00000177")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000177> "secondary antibody-esterase, Naphthol-AS-D-chloroacetate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000177> "obsolete secondary antibody-esterase, Naphthol-AS-D-chloroacetate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000177> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000178> (glucose oxidase)
@@ -2129,88 +2129,88 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000178> "glucose oxidase")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000178> <http://purl.obolibrary.org/obo/FBbi_00000456>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000179> (secondary antibody-glucose oxidase, TNBT)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000179> (obsolete secondary antibody-glucose oxidase, TNBT)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000179> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000179> "FBbi:00000179")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000179> "secondary antibody-glucose oxidase, TNBT")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000179> "obsolete secondary antibody-glucose oxidase, TNBT")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000179> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000180> (secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000180> (obsolete secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000180> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000180> "FBbi:00000180")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000180> "secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000180> "obsolete secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000180> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000181> (secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine silver enhanced)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000181> (obsolete secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine silver enhanced)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000181> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000181> "FBbi:00000181")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000181> "secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine silver enhanced")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000181> "obsolete secondary antibody-horseradish peroxidase, 3,3'-diaminobenzidine silver enhanced")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000181> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000182> (secondary antibody-horseradish peroxidase, 4-chloro-1-naphthol)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000182> (obsolete secondary antibody-horseradish peroxidase, 4-chloro-1-naphthol)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000182> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000182> "FBbi:00000182")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000182> "secondary antibody-horseradish peroxidase, 4-chloro-1-naphthol")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000182> "obsolete secondary antibody-horseradish peroxidase, 4-chloro-1-naphthol")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000182> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000183> (secondary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000183> (obsolete secondary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000183> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000183> "FBbi:00000183")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000183> "secondary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000183> "obsolete secondary antibody-horseradish peroxidase, 3-amino-9-ethylcarbazole")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000183> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000184> (secondary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000184> (obsolete secondary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000184> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000184> "FBbi:00000184")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000184> "secondary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000184> "obsolete secondary antibody-horseradish peroxidase, 3,3',5,5'-tetramethylbenzidine")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000184> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000185> (secondary antibody-horseradish peroxidase, Vector NovaRed)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000185> (obsolete secondary antibody-horseradish peroxidase, Vector NovaRed)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000185> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000185> "FBbi:00000185")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000185> "secondary antibody-horseradish peroxidase, Vector NovaRed")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000185> "obsolete secondary antibody-horseradish peroxidase, Vector NovaRed")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000185> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000186> (secondary antibody-horseradish peroxidase, Vector SG)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000186> (obsolete secondary antibody-horseradish peroxidase, Vector SG)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000186> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000186> "FBbi:00000186")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000186> "secondary antibody-horseradish peroxidase, Vector SG")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000186> "obsolete secondary antibody-horseradish peroxidase, Vector SG")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000186> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000187> (secondary antibody-horseradish peroxidase, Vector VIP)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000187> (obsolete secondary antibody-horseradish peroxidase, Vector VIP)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000187> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000187> "FBbi:00000187")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000187> "secondary antibody-horseradish peroxidase, Vector VIP")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000187> "obsolete secondary antibody-horseradish peroxidase, Vector VIP")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000187> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000188> (secondary antibody-phosphatase, Naphthol-AS-BI-phosphate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000188> (obsolete secondary antibody-phosphatase, Naphthol-AS-BI-phosphate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000188> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000188> "FBbi:00000188")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000188> "secondary antibody-phosphatase, Naphthol-AS-BI-phosphate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000188> "obsolete secondary antibody-phosphatase, Naphthol-AS-BI-phosphate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000188> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000189> (secondary antibody-fluor conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000189> (obsolete secondary antibody-fluor conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000189> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000189> "FBbi:00000189")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000189> "secondary antibody-fluor conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000189> "obsolete secondary antibody-fluor conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000189> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000190> (secondary antibody-Alexa Fluor conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000190> (obsolete secondary antibody-Alexa Fluor conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000190> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000190> "FBbi:00000190")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000190> "secondary antibody-Alexa Fluor conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000190> "obsolete secondary antibody-Alexa Fluor conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000190> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000191> (aminomethylcoumarin)
@@ -2230,76 +2230,76 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000192> "Cascade blue")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000192> <http://purl.obolibrary.org/obo/FBbi_00000455>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000193> (secondary antibody-cyanine conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000193> (obsolete secondary antibody-cyanine conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000193> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000193> "Cy2")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000193> "FBbi:00000193")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000193> "secondary antibody-cyanine conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000193> "obsolete secondary antibody-cyanine conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000193> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000194> (secondary antibody-diaminotriazinylaminoflorescein conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000194> (obsolete secondary antibody-diaminotriazinylaminoflorescein conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000194> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000194> "DTAF")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000194> "FBbi:00000194")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000194> "secondary antibody-diaminotriazinylaminoflorescein conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000194> "obsolete secondary antibody-diaminotriazinylaminoflorescein conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000194> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000195> (secondary antibody-fluorescein isothiocyanate conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000195> (obsolete secondary antibody-fluorescein isothiocyanate conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000195> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000195> "FITC")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000195> "FBbi:00000195")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000195> "secondary antibody-fluorescein isothiocyanate conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000195> "obsolete secondary antibody-fluorescein isothiocyanate conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000195> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000196> (secondary antibody-indocarbocyanine conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000196> (obsolete secondary antibody-indocarbocyanine conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000196> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000196> "Cy3")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000196> "FBbi:00000196")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000196> "secondary antibody-indocarbocyanine conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000196> "obsolete secondary antibody-indocarbocyanine conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000196> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000197> (secondary antibody-indodicarbocyanine conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000197> (obsolete secondary antibody-indodicarbocyanine conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000197> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000197> "Cy5")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000197> "FBbi:00000197")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000197> "secondary antibody-indodicarbocyanine conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000197> "obsolete secondary antibody-indodicarbocyanine conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000197> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000198> (secondary antibody-lissamine rhodamine sulfonyl chloride)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000198> (obsolete secondary antibody-lissamine rhodamine sulfonyl chloride)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000198> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000198> "LSRC")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000198> "FBbi:00000198")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000198> "secondary antibody-lissamine rhodamine sulfonyl chloride")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000198> "obsolete secondary antibody-lissamine rhodamine sulfonyl chloride")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000198> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000199> (secondary antibody-rhodamine red-X conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000199> (obsolete secondary antibody-rhodamine red-X conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000199> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000199> "RRX")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000199> "FBbi:00000199")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000199> "secondary antibody-rhodamine red-X conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000199> "obsolete secondary antibody-rhodamine red-X conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000199> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000200> (secondary antibody-tetramethyl rhodamine isothiocyanate conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000200> (obsolete secondary antibody-tetramethyl rhodamine isothiocyanate conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000200> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000200> "TRITC")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000200> "FBbi:00000200")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000200> "secondary antibody-tetramethyl rhodamine isothiocyanate conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000200> "obsolete secondary antibody-tetramethyl rhodamine isothiocyanate conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000200> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000201> (secondary antibody-Texas red conjugate)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000201> (obsolete secondary antibody-Texas red conjugate)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000201> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000201> "TR")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000201> "FBbi:00000201")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000201> "secondary antibody-Texas red conjugate")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000201> "obsolete secondary antibody-Texas red conjugate")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000201> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000202> (gold)
@@ -2310,11 +2310,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000202> "gold")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000202> <http://purl.obolibrary.org/obo/FBbi_00000457>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000203> (labeled nucleic acid probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000203> (obsolete labeled nucleic acid probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000203> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000203> "FBbi:00000203")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000203> "labeled nucleic acid probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000203> "obsolete labeled nucleic acid probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000203> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000204> (DNA probe)
@@ -2325,74 +2325,74 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000204> "DNA probe")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000204> <http://purl.obolibrary.org/obo/FBbi_00000400>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000205> (biotin labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000205> (obsolete biotin labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000205> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000205> "FBbi:00000205")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000205> "biotin labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000205> "obsolete biotin labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000205> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000206> (digoxigenin labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000206> (obsolete digoxigenin labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000206> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000206> "FBbi:00000206")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000206> "digoxigenin labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000206> "obsolete digoxigenin labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000206> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000207> (fluor labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000207> (obsolete fluor labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000207> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000207> "FBbi:00000207")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000207> "fluor labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000207> "obsolete fluor labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000207> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000208> (BODIPY TR-14-dUTP labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000208> (obsolete BODIPY TR-14-dUTP labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000208> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000208> "FBbi:00000208")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000208> "BODIPY TR-14-dUTP labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000208> "obsolete BODIPY TR-14-dUTP labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000208> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000209> (bromodeoxyuridine labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000209> (obsolete bromodeoxyuridine labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000209> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000209> "FBbi:00000209")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000209> "bromodeoxyuridine labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000209> "obsolete bromodeoxyuridine labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000209> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000210> (fluoresceine-12-dUTP labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000210> (obsolete fluoresceine-12-dUTP labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000210> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000210> "FBbi:00000210")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000210> "fluoresceine-12-dUTP labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000210> "obsolete fluoresceine-12-dUTP labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000210> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000211> (Oregon Green 488-5-dUTP labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000211> (obsolete Oregon Green 488-5-dUTP labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000211> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000211> "FBbi:00000211")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000211> "Oregon Green 488-5-dUTP labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000211> "obsolete Oregon Green 488-5-dUTP labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000211> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000212> (radioisotope labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000212> (obsolete radioisotope labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000212> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000212> "FBbi:00000212")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000212> "radioisotope labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000212> "obsolete radioisotope labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000212> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000213> ([32]P labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000213> (obsolete [32]P labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000213> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000213> "FBbi:00000213")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000213> "[32]P labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000213> "obsolete [32]P labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000213> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000214> ([33]P labeled DNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000214> (obsolete [33]P labeled DNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000214> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000214> "FBbi:00000214")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000214> "[33]P labeled DNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000214> "obsolete [33]P labeled DNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000214> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000215> (RNA probe)
@@ -2403,46 +2403,46 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000215> "RNA probe")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000215> <http://purl.obolibrary.org/obo/FBbi_00000400>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000216> (biotin labeled RNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000216> (obsolete biotin labeled RNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000216> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000216> "FBbi:00000216")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000216> "biotin labeled RNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000216> "obsolete biotin labeled RNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000216> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000217> (digoxigenin labeled RNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000217> (obsolete digoxigenin labeled RNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000217> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000217> "FBbi:00000217")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000217> "digoxigenin labeled RNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000217> "obsolete digoxigenin labeled RNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000217> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000218> (fluoroscein labeled RNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000218> (obsolete fluoroscein labeled RNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000218> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000218> "FBbi:00000218")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000218> "fluoroscein labeled RNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000218> "obsolete fluoroscein labeled RNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000218> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000219> (radioisotope labeled RNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000219> (obsolete radioisotope labeled RNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000219> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000219> "FBbi:00000219")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000219> "radioisotope labeled RNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000219> "obsolete radioisotope labeled RNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000219> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000220> ([32]P labeled RNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000220> (obsolete [32]P labeled RNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000220> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000220> "FBbi:00000220")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000220> "[32]P labeled RNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000220> "obsolete [32]P labeled RNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000220> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000221> ([33]P labeled RNA probe)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000221> (obsolete [33]P labeled RNA probe)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000221> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000221> "FBbi:00000221")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000221> "[33]P labeled RNA probe")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000221> "obsolete [33]P labeled RNA probe")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000221> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000222> (imaging method)
@@ -2574,7 +2574,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000239> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000240> (macroscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000240> "methods for imaging objects large enough to be observed by the unaided eye")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000240> "Methods for imaging objects large enough to be observed by the unaided eye")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000240> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000240> "FBbi:00000240")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/FBbi_00000240> <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod>)
@@ -2583,18 +2583,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000240> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000241> (microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000241> "methods for forming images of objects too small to be observed with the unaided eye")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000241> "Methods for forming images of objects too small to be observed with the unaided eye")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000241> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000241> "FBbi:00000241")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/FBbi_00000241> <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000241> "microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000241> <http://purl.obolibrary.org/obo/FBbi_00000265>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000242> (wide field light micrograph)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000242> (obsolete wide field light micrograph)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000242> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000242> "FBbi:00000242")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000242> "wide field light micrograph")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000242> "obsolete wide field light micrograph")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000242> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000243> (bright-field microscopy)
@@ -2608,7 +2608,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000243> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000244> (dark-field microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000244> "imaging with rejection of the unscattered illumination (removal of the zero order component of the diffracted wave)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000244> "Imaging with rejection of the unscattered illumination (removal of the zero order component of the diffracted wave)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000244> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000244> "FBbi:00000244")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/FBbi_00000244> <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod>)
@@ -2658,11 +2658,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000249> "time lapse microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000249> <http://purl.obolibrary.org/obo/FBbi_00000345>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000250> (narrow field light micrograph)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000250> (obsolete narrow field light micrograph)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000250> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000250> "FBbi:00000250")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000250> "narrow field light micrograph")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000250> "obsolete narrow field light micrograph")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/FBbi_00000250> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000251> (confocal microscopy)
@@ -2717,7 +2717,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000256> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000257> (scanning electron microscopy (SEM))
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000257> "image is formed by scanning the surface of the specimen with a beam of electrons in a raster pattern")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000257> "Image is formed by scanning the surface of the specimen with a beam of electrons in a raster pattern")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000257> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000257> "FBbi:00000257")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/FBbi_00000257> <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod>)
@@ -2735,7 +2735,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000258> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000259> (atomic force microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000259> "the scanning probe is maintained at a fixed distance above the surface e of the specimen by van der Waals forces")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000259> "The scanning probe is maintained at a fixed distance above the surface e of the specimen by van der Waals forces")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000259> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000259> "FBbi:00000259")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000259> "atomic force microscopy")
@@ -2771,7 +2771,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000262> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000263> (solvent permeabilized)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000263> "permeabilization due to extraction of lipid from membranes by an organic solvent such as acetone or methanol.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000263> "Permeabilization due to extraction of lipid from membranes by an organic solvent such as acetone or methanol.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000263> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000263> "2010-03-07T02:37:29Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000263> "image")
@@ -2792,7 +2792,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000264> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000265> (recorded image)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000265> "methods and devices used for capturing an image of a real object; distinct from images created by artwork")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000265> "Methods and devices used for capturing an image of a real object; distinct from images created by artwork")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000265> "image recording method")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000265> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000265> "2010-03-09T09:57:38Z")
@@ -2804,7 +2804,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000265> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000266> (portrayed image)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000266> "methods and devices used for creating images by some form of artwork, as distinct from capturing images by means of some recording device")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000266> "Methods and devices used for creating images by some form of artwork, as distinct from capturing images by means of some recording device")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000266> "image portrayal method")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000266> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000266> "2010-03-09T10:04:40Z")
@@ -2827,7 +2827,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000267> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000268> (illumination method)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000268> "sources and methods for illumination")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000268> "Sources and methods for illumination")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000268> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000268> "2010-03-09T10:38:14Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000268> "image")
@@ -2837,7 +2837,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000268> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000269> (detection method)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000269> "media and devices employed for recording the alterations in the illumination that result from its interaction with the sample")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000269> "Media and devices employed for recording the alterations in the illumination that result from its interaction with the sample")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000269> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000269> "2010-03-09T10:38:14Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000269> "image")
@@ -2911,7 +2911,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000276> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000277> (widefield illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000277> "illumination that covers the entire field of view of the image-forming lens")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000277> "Illumination that covers the entire field of view of the image-forming lens")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000277> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000277> "2010-03-09T10:50:41Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000277> "image")
@@ -2921,7 +2921,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000277> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000278> (narrowfield illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000278> "illumination restricted to a small portion of the field of view of the imaging lens; often one or more diffraction limited spots")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000278> "Illumination restricted to a small portion of the field of view of the imaging lens; often one or more diffraction limited spots")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000278> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000278> "2010-03-09T10:50:41Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000278> "image")
@@ -2976,7 +2976,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000283> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000284> (pulsed illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000284> "illumination that varies with time; often achieved with pulsed lasers for the purpose of generating very-high peak illumination power")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000284> "Illumination that varies with time; often achieved with pulsed lasers for the purpose of generating very-high peak illumination power")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000284> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000284> "2010-03-09T10:50:41Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000284> "image")
@@ -2995,7 +2995,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000285> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000286> (single point scanning)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000286> "illumination by a single spot of light that is scanned across the field of view")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000286> "Illumination by a single spot of light that is scanned across the field of view")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000286> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000286> "2010-03-09T10:51:29Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000286> "image")
@@ -3005,7 +3005,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000286> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000287> (multiple point scanning)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000287> "illumination by multiple points of light simultaneously")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000287> "Illumination by multiple points of light simultaneously")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000287> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000287> "2010-03-09T10:51:29Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000287> "image")
@@ -3015,7 +3015,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000287> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000288> (spinning disk scanning)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000288> "scanning by multiple points of light arising from pinholes in a spinning disk that is illuminated by a widefield source")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000288> "Scanning by multiple points of light arising from pinholes in a spinning disk that is illuminated by a widefield source")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000288> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000288> "2010-03-09T10:52:38Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000288> "image")
@@ -3035,7 +3035,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000289> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000290> (hollow-cone illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000290> "illumination parallel or at small angles to the optical axis is attenuated or blocked by a stop")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000290> "Illumination parallel or at small angles to the optical axis is attenuated or blocked by a stop")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000290> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000290> "2010-03-09T11:04:14Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000290> "image")
@@ -3055,7 +3055,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000291> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000292> (darkfield illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000292> "illumination restricted to angles that exceed the acceptance angle of the image-forming lens")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000292> "Illumination restricted to angles that exceed the acceptance angle of the image-forming lens")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000292> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000292> "2010-03-09T11:04:41Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000292> "image")
@@ -3065,7 +3065,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000292> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000293> (Rheinberg illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000293> "illumination at angles less than the acceptance angle of the image-forming lens is attenuated by a filter to give a colored background of unscattered light; higher angle illumination may be filtered to give a contrasting color")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000293> "Illumination at angles less than the acceptance angle of the image-forming lens is attenuated by a filter to give a colored background of unscattered light; higher angle illumination may be filtered to give a contrasting color")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000293> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000293> "2010-03-09T11:04:41Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000293> "image")
@@ -3318,7 +3318,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000320> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000321> (resolution-enhancing method)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000321> "methods for increasing the resolution beyond the classical Abbe diffraction limit")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000321> "Methods for increasing the resolution beyond the classical Abbe diffraction limit")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000321> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000321> "2010-03-09T03:12:34Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000321> "image")
@@ -3366,7 +3366,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000325> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000326> (Wollaston prism)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000326> "a birefringent optical element typically used to split polarized illumination into two sets of parallel but displaced rays")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000326> "A birefringent optical element typically used to split polarized illumination into two sets of parallel but displaced rays")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000326> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000326> "2010-03-09T03:20:14Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000326> "image")
@@ -3496,7 +3496,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000339> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000340> (saturated structured-illumination microscopy (SSIM))
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000340> "structured illumination used at sufficiently high power to cause significant ground-state depletion of the imaged fluorophore, thus allowing for non-linear resolution enhancement")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000340> "Structured illumination used at sufficiently high power to cause significant ground-state depletion of the imaged fluorophore, thus allowing for non-linear resolution enhancement")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000340> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000340> "2010-03-09T03:32:29Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000340> "image")
@@ -3533,7 +3533,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000343> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000344> (scanning probe microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000344> "imaging by means of a physical probe that passes over the sample")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000344> "Imaging by means of a physical probe that passes over the sample")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000344> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000344> "2010-03-09T04:04:04Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000344> "image")
@@ -3619,7 +3619,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000353> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000354> (linear method)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000354> "a computational method that is linear in the mathematical sense, meaning that image intensity is conserved and the data remain suitable for all quantitative analyses")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000354> "A computational method that is linear in the mathematical sense, meaning that image intensity is conserved and the data remain suitable for all quantitative analyses")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000354> "linear computational contrast enhancing method method")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000354> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000354> "2010-03-09T11:09:35Z")
@@ -3631,7 +3631,7 @@ DisjointClasses(<http://purl.obolibrary.org/obo/FBbi_00000354> <http://purl.obol
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000355> (non-linear method)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000355> "computational method that are mathematically non-linear; image intensity is not conserved, and the data are in general not suitable for quantitative analyses of pixel values")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000355> "Computational method that are mathematically non-linear; image intensity is not conserved, and the data are in general not suitable for quantitative analyses of pixel values")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000355> "non-linear computational contrast enhancing method method")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000355> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000355> "2010-03-09T11:09:35Z")
@@ -3714,7 +3714,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000363> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000364> (light-sheet illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000364> "illumination in the form of a thin sheet of light directed perpendicular to the optic axis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000364> "Illumination in the form of a thin sheet of light directed perpendicular to the optic axis")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000364> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000364> "2010-03-11T10:06:20Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000364> "image")
@@ -3765,7 +3765,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000368> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000369> (SPIM)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000369> "single (or selective) plane illumination.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000369> "Single (or selective) plane illumination.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000369> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000369> "2010-03-11T10:09:33Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000369> "image")
@@ -3776,7 +3776,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000369> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000370> (CARS)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000370> "coherent Raman anti-Stokes microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000370> "Coherent Raman anti-Stokes microscopy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000370> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000370> "2010-03-11T10:13:20Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000370> "image")
@@ -3787,7 +3787,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000371> (OCT)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000371> "optical coherence tomography; an interferometric method of imaging using back-scattered photons (elastic scattering)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000371> "Optical coherence tomography; an interferometric method of imaging using back-scattered photons (elastic scattering)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000371> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000371> "2010-03-11T10:32:19Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000371> "image")
@@ -3797,7 +3797,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000371> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000372> (secondary_electron imaging)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000372> "image created using the electrons generated by ionization of a sample due to inelastic scattering of the primary beam of radiation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000372> "Image created using the electrons generated by ionization of a sample due to inelastic scattering of the primary beam of radiation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000372> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000372> "2010-03-12T08:34:44Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000372> "image")
@@ -3807,7 +3807,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000372> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000373> (back-scattered_electron imaging)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000373> "imaged formed using electrons undergoing elastic scattering at very high angles, with emission of characteristic X-rays")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000373> "Imaged formed using electrons undergoing elastic scattering at very high angles, with emission of characteristic X-rays")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000373> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000373> "2010-03-12T08:40:37Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000373> "image")
@@ -3974,7 +3974,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000390> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000391> (slit-scanning illumination)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000391> "illumination in the shape of a thin line that is swept over the field of view")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000391> "Illumination in the shape of a thin line that is swept over the field of view")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000391> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000391> "2010-03-12T10:31:26Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000391> "image")
@@ -3984,7 +3984,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000391> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000392> (slit-scan confocal microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000392> "illumination and detection via a thin slit")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000392> "Illumination and detection via a thin slit")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000392> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000392> "2010-03-12T10:32:36Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000392> "image")
@@ -4024,7 +4024,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000395> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000396> (visualization of contiguous regions)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000396> "methods of visualization that differentiate between different regions or surfaces of the specimen based on contiguity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000396> "Methods of visualization that differentiate between different regions or surfaces of the specimen based on contiguity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000396> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000396> "2010-03-14T08:38:50Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000396> "image")
@@ -4034,7 +4034,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000396> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000397> (visualization by chemical attribute)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000397> "methods of visualization that differentiate regions of the specimen on the basis of their chemical properties")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000397> "Methods of visualization that differentiate regions of the specimen on the basis of their chemical properties")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000397> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000397> "2010-03-14T08:38:50Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000397> "image")
@@ -4044,7 +4044,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000397> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000398> (shadowing and plating)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000398> "visualization by depositing a label on the surface of a specimen uniformly (plating), or from a particular direction so that surface topography becomes visible (shadowing)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000398> "Visualization by depositing a label on the surface of a specimen uniformly (plating), or from a particular direction so that surface topography becomes visible (shadowing)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000398> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000398> "2010-03-14T08:44:06Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000398> "image")
@@ -4055,7 +4055,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000398> ObjectSomeValuesFrom(<
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000399> (negative staining)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000399> "visualization by exclusion of a stain in which the specimen is immersed; compare with \"positive staining.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000399> "Visualization by exclusion of a stain in which the specimen is immersed; compare with \"positive staining.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000399> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000399> "2010-03-14T08:44:06Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000399> "image")
@@ -4594,7 +4594,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000452> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000453> (TexasRed)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000453> "fluorophore with ex/em 589/615")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000453> "Fluorophore with ex/em 589/615")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000453> "visualization of TexasRed conjugated to probe")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000453> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000453> "2010-03-14T10:22:41Z")
@@ -4605,7 +4605,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000453> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000454> (Tetramethyl rhodamine (TRITC))
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000454> "fluorophore derivative of rhodamine with ex/em 547/572")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000454> "Fluorophore derivative of rhodamine with ex/em 547/572")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000454> "visualization of Tetramethyl rhodamine (TRITC) conjugated to probe")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000454> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000454> "2010-03-14T10:22:41Z")
@@ -5929,7 +5929,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000579> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000580> (secondary electron generation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000580> "electrons generated by inelastic scattering of other radiation, the primary radiation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000580> "Electrons generated by inelastic scattering of other radiation, the primary radiation.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000580> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000580> "2010-05-04T12:25:14Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000580> "image")
@@ -5939,7 +5939,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000580> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000581> (critical_point dried specimen)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000581> "specimen from which water has been removed by a process that avoids liquid-gas and solid-gas phase transitions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000581> "Specimen from which water has been removed by a process that avoids liquid-gas and solid-gas phase transitions.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000581> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000581> "2010-05-04T12:31:12Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000581> "image")
@@ -5949,7 +5949,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000581> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000582> (unprocessed raw data)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000582> "data as acquired, with no alterations that change the pixel values.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000582> "Data as acquired, with no alterations that change the pixel values.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000582> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000582> "2010-05-04T12:42:17Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000582> "image")
@@ -5959,7 +5959,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000582> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000583> (lyophilized specimen)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000583> "specimen from which water has been removed by evaporation under vacuum at a temperature below freezing.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000583> "Specimen from which water has been removed by evaporation under vacuum at a temperature below freezing.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000583> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000583> "2010-05-04T12:49:31Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000583> "image")
@@ -5969,7 +5969,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000583> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000584> (X-Rhodamine)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000584> "fluorophore derivative of rhodamine with ex/em 580/605")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000584> "Fluorophore derivative of rhodamine with ex/em 580/605")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00000584> "visualization of X-Rhodamine conjugated to probe")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000584> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000584> "2010-05-04T09:02:54Z")
