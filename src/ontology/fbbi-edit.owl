@@ -2729,11 +2729,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000257> "s
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000257> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000278>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000257> <http://purl.obolibrary.org/obo/FBbi_00000256>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000258> (transmission electron microscopy (TEM))
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000258> (transmission electron microscopy)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000258> "image")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/FBbi_00000258> "TEM")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000258> "FBbi:00000258")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000258> "transmission electron microscopy (TEM)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000258> "transmission electron microscopy")
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000258> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000277>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000306>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000258> <http://purl.obolibrary.org/obo/FBbi_00000256>)
 
