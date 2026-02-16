@@ -24,6 +24,18 @@ AnnotationProperty: comment:
 
 Datatype: idrange:1
     Annotations:
+        allocatedto: "Historical"
+    EquivalentTo:
+        xsd:integer[>= 0, < 100000]
+
+Datatype: idrange:2
+    Annotations:
         allocatedto: "Damien Goutte-Gattat"
     EquivalentTo:
         xsd:integer[>= 100000, < 110000]
+
+Datatype: idrange:3
+    Annotations:
+        allocatedto: "Tiago Lubiana"
+    EquivalentTo:
+        xsd:integer[>= 110000, < 120000]
