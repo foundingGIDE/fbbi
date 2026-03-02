@@ -8,6 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/fbbi.owl>
 Import(<http://purl.obolibrary.org/obo/fbbi/imports/merged_import.owl>)
+Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> <http://purl.obolibrary.org/obo/FBbi_root_00000000>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-6095-8718>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-7073-9172>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-8841-5870>)
