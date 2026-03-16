@@ -671,6 +671,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -6608,17 +6610,35 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00100016> ObjectIntersect
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00100017> (cryogenic serial block face scanning electron microscopy)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27693309") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100017> "Cryogenic serial block-face scanning electron microscopy is a volumetric imaging technique in which the surface of a biological specimen preserved in its near-native, vitrified state is imaged by a scanning electron microscope, then ablated by a focused ion beam (FIB-SEM) to reveal a new surface, enabling three-dimensional ultrastructural reconstruction of cells and tissues without the artifacts introduced by chemical fixation or resin embedding.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100017> "Cryogenic serial block-face scanning electron microscopy is a volumetric imaging technique in which the surface of a biological specimen preserved in its near-native, vitrified state is imaged by a scanning electron microscope, then ablated to reveal a new surface, enabling three-dimensional ultrastructural reconstruction of cells and tissues without the artifacts introduced by chemical fixation or resin embedding.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100017> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100017> "2026-03-13T13:54:56Z"^^xsd:dateTime)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "cryo FIB-SEM slice and view")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "cryo FIB-SEM subtractive tomography")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "cryo-FIB-SEM serial block face imaging")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "cryo-serial block face SEM")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "cryo-serial block face scanning electron microscopy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "serial block face cryo-SEM")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100017> "cryogenic serial block face scanning electron microscopy")
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00100017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000585> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000013>)))
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100018> (cryogenic focused ion beam-sectioning serial block face scanning electron microscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:27693309") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100018> "A form of cryogenic serial block face scanning electron microscopy where the sectioning is done using a focused ion beam.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100018> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100018> "2026-03-16T12:22:40Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100018> "cryo FIB-SEM slice and view")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100018> "cryo FIB-SEM subtractive tomography")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100018> "cryo-FIB-SBF-SEM")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100018> "cryo-FIB-SEM serial block face imaging")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100018> "cryogenic focused ion beam-sectioning serial block face scanning electron microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100018> <http://purl.obolibrary.org/obo/FBbi_00100017>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100019> (cryogenic blade-sectioning serial block face scanning electron microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100019> "A form of cryogenic serial block face scanning electron microscopy where the sectioning is performed with a blade.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100019> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100019> "2026-03-16T12:26:57Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100019> "cryo-microtome SBF-SEM")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100019> "cryogenic blade-sectioning serial block face scanning electron microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100019> <http://purl.obolibrary.org/obo/FBbi_00100017>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
