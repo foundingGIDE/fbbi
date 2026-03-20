@@ -94,6 +94,28 @@
       \path [DevFromRel] (wingblade) -- (wingpouch)       node[midway,RelationLabel] {develops\_from};
     \end{tikzpicture}
   \end{center}
+
+  \note{An ontology is basically a representation of a domain of knowledge, in
+  such a way that it can be manipulated deterministically by a computer.
+  
+  It is a set of concepts, also variously known as ``classes'' or ``terms'',
+  linked together by relationships that are themselves defined in the ontology.
+  
+  You have here an excerpt from the \emph{Drosophila Anatomy Ontology}, an
+  ontology that aims to describe the anatomy of the fruit fly \emph{Drosophila
+  melanogaster}, where the concept of a fly wing is described by relationships
+  with several other concepts of fly anatomy: a subsumption relationship with
+  the concept of muticellular structure (a wing \emph{is a} multicellular
+  structure), a composition relationship with the concept of thorax (a wing
+  \emph{is part of} the throax, or the thorax \emph{has} wings), and a
+  developmental relationship with the concept of wing disc, which indicates that
+  an adult fly's wing is formed from a particular part of the larva called the
+  wing disc.
+  
+  In the end, an ontology allows to describe arbitrarily complex concepts by a
+  combination of simple ``sentences'' or ``axioms'', of the form subject -- verb
+  -- complement; or as they are called in the field, subject -- predicate --
+  object.}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -120,12 +142,12 @@ wing pouch
         a'' relationships.
 
 \begin{Verbatim}
-vertebrate
-  mammal
-    primate
-      human
-    rodent
-      mouse
+organism subdivision
+  thorax
+multicellular structure
+  wing blade
+  wing disc
+  wing pouch
 \end{Verbatim}
       \end{block}
     \end{column}
@@ -136,7 +158,26 @@ vertebrate
     to ``is a'', but are instead terms themselves.
   \end{block}
 
-  \note{Dummy note for now.}
+  \note{A short detour to explain how ontologies are related to the
+  similar concepts of ``controlled vocabularies'' and ``taxonomies''.
+
+  One way to look at those concepts is to see them as a progression from
+  controlled vocabularies to taxonomies to ontologies. In that view, a
+  controlled vocabulary is merely a flat list of terms. For example
+  here, terms related to the anatomy of the fruit fly \emph{Drosophila
+  melanogaster}; there are no connections between the terms, and the
+  terms are typically not really defined.
+
+  A taxonomy is a controlled vocabulary in which the terms are organised
+  in a hierarchy where a child term has a narrower meaning that its
+  parent term. We say that the terms are connected by \emph{is-a}
+  relations, for example a ``wing blade'' is a ``multicellular
+  structure''.
+
+  An ontology is the ultimate step of that evolution, and can be seen as
+  a taxonony where terms can be related by \emph{arbitrary} relations,
+  which are themselves defined in the ontology, instead of only
+  \emph{is-a} relations.}
 \end{frame}
 
 \begin{frame}
@@ -162,6 +203,28 @@ vertebrate
       \item Biological Imaging Methods Ontology (FBbi)
     \end{itemize}
   \end{block}
+
+  \note{Ontologies are nowadays used in almost all fields of scientific
+  research, but here we'll focus specifically on ontologies used in
+  biological and medical research.
+
+  One of the first and most important biomedical ontologies is the Gene
+  Ontology, created in 1998. At the time, progress in molecular biology
+  meant that biologists were accumulating a lot of knowledge about
+  genes: what a given gene does, which biological processes it is
+  involved in, which parts of a cell its product is found in. This
+  created a need to have a way to store that knowledge in databases, and
+  this is what the Gene Ontology was designed to do.
+
+  In the following years, several other ontologies were created on the
+  model of the Gene Ontology, and this led to the formation of the Open
+  Bio-Ontologies Foundry (OBO Foundry) in 2002, a group of ontology
+  developers agreeing on a set of principles to follow in order to
+  facilitate interoperability across ontologies.
+
+  The OBO Foundry now regroups more than 200 ontologies covering various
+  domains of biology and medicine. One of those ontologies is the
+  ontology for biological imaging methods, or FBbi.}
 \end{frame}
 
 
@@ -193,34 +256,104 @@ vertebrate
     \item Maintenance resumed by German BioImaging for the FoundingGIDE
     project in early 2026.
   \end{itemize}
+
+  \note{The FBbi ontology was created at the beginning of the century
+  by curators at FlyBase.org, the database for \emph{Drosophila
+  melanogaster} data. That's why the ontology is commonly known under
+  the name ``FBbi'', which stands for ``FlyBase Biological Imaging''.
+  FlyBase curators needed such an ontology to annotate the collection of
+  fly images that was available in the database. They developed the
+  ontology for about 5 years, until FlyBase stopped maintaining its
+  image collection, which removed the need, at least as far as FlyBase
+  was concerned, for an ontology of biological imaging methods.
+
+  The need for such an ontology still existed outside of FlyBase though,
+  and so over the years several groups took over the responsibility of
+  maintaining the ontology and ensuring it was kept in sync with the
+  progress of biological imaging. However all those efforts came to a
+  complete end in 2019, leaving the ontology completely unmaintained.
+
+  Since an up-to-date ontology for imaging method is \emph{still}
+  needed, German BioImaging and the FoundingGIDE project took ownership
+  of the ontology earlier this year.}
 \end{frame}
 
 \begin{frame}
   \frametitle{Overview of FBbi}
 
-  \begin{columns}[t]
-    \begin{column}{.45\textwidth}
-      As of the January 2026 release:
-      \begin{itemize}
-        \item 649 classes
-        \item 1 object property (``makes use of'')
-      \end{itemize}
-    \end{column}
-    \begin{column}{.45\textwidth}
-      Nine top-level terms:
-      \begin{itemize}
-        \item contrast-enhancing method
-        \item detection method
-        \item illumination method
-        \item imaged parameter
-        \item imaging method
-        \item resolution-enhancing method
-        \item sample preparation method
-        \item source of contrast
-        \item visualization method
-      \end{itemize}
-    \end{column}
-  \end{columns}
+  As of the January 2026 release:
+  \begin{itemize}
+  \item 649 terms
+  \item Organised under 9 top-level categories
+    \begin{itemize}
+      \item contrast-enhancing method
+      \item detection method
+      \item illumination method
+      \item imaged parameter
+      \item imaging method
+      \item resolution-enhancing method
+      \item sample preparation method
+      \item source of contrast
+      \item visualization method
+    \end{itemize}
+  \end{itemize}
+
+  \note{Here is a very quick overview of the contents of the FBbi
+  ontology, as it was at the time of the last release earlier this
+  year.
+
+  The ontology currently contains 649 terms, grouped into 9 high-level
+  categories as shown here.
+
+  Of note, this organisation is not ideal, and we will most likely
+  overhaul it over the next few months. The terms themselves will still
+  remain valid, though.}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example term: FBbi:00100016}
+
+  \begin{block}{Label}
+    ``cryogenic scanning electron microscopy''
+  \end{block}
+
+  \begin{block}{Synonyms}
+    \begin{itemize}
+      \item cryo-scanning electron microscopy
+      \item cryo-SEM
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Definition}
+    ``A form of scanning electron microscopy in which the sample is
+    maintained in a vitrified state at cryogenic temperatures throughout
+    imaging (PMID:40345995).''
+  \end{block}
+
+  \begin{block}{Relationships}
+    \begin{itemize}
+      \item \texttt{is\_a} ``scanning electron microscopy'' (FBbi:00000257)
+      \item \texttt{makes\_use\_of} ``cryo-fixed tissue'' (FBbi:00000013)
+    \end{itemize}
+  \end{block}
+
+  \note{Here is what a single term in the ontology look like.
+
+  For any given term, you have:
+
+  (1) a fixed ID, that you can use to reliably refer to the term;
+
+  (2) a label, along with synonyms when appropriate, so that the term
+  can be more easily found even if the same technique is known by
+  several slightly different names;
+
+  (3) a definition (at least in theory; in reality, most terms in FBbt
+  currently don't have a definition; we're working on fixing that), so
+  that when you are looking for a term, once you have found it you can
+  check that it does indeed refer to the concept you were looking for;
+
+  (4) relationships that connect the term to other terms in the
+  ontology.}
 \end{frame}
 
 
@@ -239,6 +372,21 @@ vertebrate
   \begin{center}
     \includegraphics[scale=.16]{protege}
   \end{center}
+
+  \note{
+    If you want to use FBbi terms to annotate your images, you will need
+    to find the terms that correspond to the methods that were used for
+    any given image. In turn, this means you need to be able to browse
+    and search the ontology.
+
+    You can do that either locally or online.
+
+    To do it locally, I recommend the Protégé ontology editor, which we
+    use to \emph{edit} the ontology but that can be used as a viewer or
+    browser (full disclosure: I am the maintainer of that editor as
+    well). With Protégé installed on your machine, you can then download
+    the latest version of the ontology, open it in Protégé, and then
+    explore the contents of the ontology as much as you want.}
 \end{frame}
 
 \begin{frame}
@@ -254,6 +402,11 @@ vertebrate
   \begin{center}
     \includegraphics[scale=.14]{ols}
   \end{center}
+
+  \note{If you only need a FBbi term only very occasionally, then you
+  might prefer avoid having to download a specialised program just to
+  browse an ontology. In that case, you can use some online ontology
+  browsing services, such as those mentioned here.}
 \end{frame}
 
 
@@ -286,10 +439,25 @@ vertebrate
   \bigskip
   We are already aware of some problems but an ontology is always
   dependent on its users!
+
+  \note{Now if you are using FBbi but have a problem with it, what can
+  you do? You can ask for your problem to be fixed. 
+
+  If you are using an imaging method that is currently not represented
+  in the ontology, if you don't like the way a method is defined, if you
+  think a term is misplaced within the hierarchy, or more generally if
+  there's anything preventing you doing what you need with FBbi...
+
+  Reach out to us by opening a ticket on the ontology's issue tracker.}
 \end{frame}
 
 \begin{frame}
   \frametitle{Want to contribute more directly?}
+
+  \begin{block}{}
+    Reach out first on the issue tracker to let us know about the
+    contribution(s) you are planning to make.
+  \end{block}
 
   What do you need to contribute?
 
@@ -297,12 +465,13 @@ vertebrate
     \item Software
     \begin{itemize}
       \item Protégé
-      \item \href{https://github.com/INCATools/ontology-development-kit}{Ontology Development Kit}
+      \item \href{https://github.com/INCATools/ontology-development-kit}{Ontology Development Kit} (*)
+      \item Git (version control system)
     \end{itemize}
     \item Skills
     \begin{itemize}
-      \item Familiarity with Git \& GitHub
-      \item Familiarity with the command line
+      \item Domain expertise
+      \item Familiarity with the Web Ontology Language (OWL) (*)
     \end{itemize}
     \item Documentation
     \begin{itemize}
@@ -310,6 +479,30 @@ vertebrate
       \item Join the OBO community on Slack (\url{https://obo-communitygroup.slack.com})
     \end{itemize}
   \end{itemize}
+
+  (*) Depending on the complexity of the changes you want to make.
+
+  \note{Should you want to contribute more directly, you can also edit
+  the ontology yourself, and then propose your contributions to us.
+
+  If you want to do that, you should still start by opening a ticket on
+  the issue tracker, so that we know what you are planning to work on.
+
+  In concrete terms, to edit the ontology you will mostly need the
+  Protégé ontology editor. For some complex changes, you might have to
+  also use a tool called the Ontology Development Kit, but that should
+  not happen very often. You must also be somewhat familiar with the
+  Git version control system, since all changes to the ontology are
+  mediated through this system.
+
+  In terms of skills, the most important skill is the expertise of the
+  domain. You may also need to know a bit about the Web Ontology
+  Language, which is the language in which the ontology is written, but
+  for most changes this should not be needed.
+
+  If you are interested and want to learn more, I invite you to check
+  the training resources made available by the OBO Foundry, and to join
+  the OBO Community on its Slack channel.}
 \end{frame}
 
 
