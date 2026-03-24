@@ -3218,6 +3218,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000308> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000309> (inelastic scattering)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1351/goldbook.I03025") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000309> "A form of particle scattering in which the energy of the scattered particle is different from that of the incident particle (contrary to elastic scattering, where the energy remains the same).")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000309> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000309> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000309> "2010-03-09T03:11:47Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000309> "image")
@@ -3786,16 +3788,17 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000369> "s
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000369> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000246> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000364>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000369> <http://purl.obolibrary.org/obo/FBbi_00000246>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000370> (CARS)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000370> (coherent Raman anti-Stokes microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000370> "Coherent Raman anti-Stokes microscopy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1002/cphc.200700202") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000370> "A form of microscopy that can detect molecularly specific contrasts based on the vibrational spectra of the sample molecules, by producing and detecting Raman-scattered photons.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000370> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000370> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000370> "2010-03-11T10:13:20Z")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000370> "CARS microscopy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000370> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000370> "FBbi:00000370")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000370> "CARS")
-EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000309>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000319>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> <http://purl.obolibrary.org/obo/FBbi_00000345>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000370> "coherent Raman anti-Stokes microscopy")
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000319>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000589>)))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000371> (OCT)
 
@@ -6027,13 +6030,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000588> "inelastic scattering of electrons")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000588> <http://purl.obolibrary.org/obo/FBbi_00000309>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000589> (inelastic scattering of photons (Raman scattering))
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000589> (Raman scattering)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1002/0470845767") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000589> "The inelastic scattering of photons caused by interaction with matter.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000589> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000589> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000589> "2010-09-03T08:43:42Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000589> "Raman effect")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000589> "inelastic scattering of photons")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000589> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000589> "FBbi:00000589")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000589> "inelastic scattering of photons (Raman scattering)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000589> "Raman scattering")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000589> <http://purl.obolibrary.org/obo/FBbi_00000309>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000590> (source of contrast)
