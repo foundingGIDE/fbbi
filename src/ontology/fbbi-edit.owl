@@ -3764,14 +3764,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000367> "FRET")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000367> <http://purl.obolibrary.org/obo/FBbi_00000246>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000368> (FLIM)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000368> (fluorescence lifetime imaging microscopy)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:1519759") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000368> "A fluorescence microscopy method in which the image contrast is derived from the fluorescence lifetime at each point in a two-dimensional image and not the local concentration and/or intensity of the fluorophore.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000368> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000368> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000368> "2010-03-11T10:09:33Z")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000368> "FLIM")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000368> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000368> "FBbi:00000368")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000368> "FLIM")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000368> <http://purl.obolibrary.org/obo/FBbi_00000246>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000368> "fluorescence lifetime imaging microscopy")
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000368> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000246> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000605>)))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000369> (selective plane illumination fluorescence microscopy)
 
