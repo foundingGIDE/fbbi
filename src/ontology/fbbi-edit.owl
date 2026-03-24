@@ -3791,7 +3791,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000369> <http://purl.obolibrar
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000370> (coherent Raman anti-Stokes microscopy)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1002/cphc.200700202") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000370> "A form of microscopy that can detect molecularly specific contrasts based on the vibrational spectra of the sample molecules, by producing and detecting Raman-scattered photons.")
-AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00000370> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000370> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000370> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000370> "2010-03-11T10:13:20Z")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000370> "CARS microscopy")
