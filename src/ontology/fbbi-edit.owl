@@ -2653,11 +2653,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000247> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000248> (polarization microscopy)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23901032") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000248> "A form of light microscopy that uses polarized light. Such form can be used to image samples that exibit optical anisotropy.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000248> "anisotropy/polarization microscopy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000248> "polarized light microscopy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000248> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000248> "FBbi:00000248")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000248> "polarization microscopy")
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000248> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000313>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000350>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000352>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000248> <http://purl.obolibrary.org/obo/FBbi_00000345>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000249> (time lapse microscopy)
 
@@ -3593,6 +3595,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000349> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000350> (polarized light illumination)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000350> "An illumination method in which the sample is illuminated by light waves of only one polarization, instead of a mix of waves of various polarizations.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000350> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000350> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000350> "2010-03-09T10:23:41Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000350> "image")
@@ -3611,6 +3615,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000351> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000352> (polarization-sensitive detection)
 
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000352> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000352> "A detection method that only detects light that has a specific polarization.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000352> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000352> "2010-03-09T10:27:11Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000352> "image")
