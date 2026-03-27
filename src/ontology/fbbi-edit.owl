@@ -671,6 +671,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -6076,30 +6077,37 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000592> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000593> (form birefringence)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:2775834") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000593> "An optical anisotropy that is caused by the arrangement of structures with different refractive indexes, on a scale smaller than a wavelength.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000593> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000593> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000593> "2010-09-03T09:55:12Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000593> "structural birefringence")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000593> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000593> "FBbi:00000593")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000593> "form birefringence")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000593> <http://purl.obolibrary.org/obo/FBbi_00000590>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000593> <http://purl.obolibrary.org/obo/FBbi_00100018>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000594> (intrinsic birefringence)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000594> "An optical anisotropy that is a constant, intrinsic property of the material.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000594> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000594> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000594> "2010-09-03T09:55:12Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000594> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000594> "FBbi:00000594")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000594> "intrinsic birefringence")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000594> <http://purl.obolibrary.org/obo/FBbi_00000590>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000594> <http://purl.obolibrary.org/obo/FBbi_00100018>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000595> (stress-induced birefringence)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000595> "An optical anisotropy that is the result of mechanical stress in an otherwise isotropic material.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000595> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000595> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000595> "2010-09-03T09:55:12Z")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000595> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000595> "FBbi:00000595")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000595> "stress-induced birefringence")
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000595> <http://purl.obolibrary.org/obo/FBbi_00000590>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000595> <http://purl.obolibrary.org/obo/FBbi_00100018>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000596> (distribution of a specific nucleic acid sequence)
 
@@ -6633,6 +6641,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100017> "serial block face cryo-SEM")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100017> "cryogenic serial block face scanning electron microscopy")
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00100017> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000585> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000013>)))
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100018> (optical anisotropy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:978-1-108-47743-7") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100018> "The property of a material whose refractive index depends on the polarization and propagation direction of light.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100018> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100018> "2026-03-27T11:31:52Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100018> "birefringence")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100018> "optical anisotropy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100018> <http://purl.obolibrary.org/obo/FBbi_00000590>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
