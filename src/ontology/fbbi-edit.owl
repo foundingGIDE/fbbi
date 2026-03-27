@@ -6180,12 +6180,18 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000602> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000603> (fluorescence polarization microscopy)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:2317548") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000603> "A mode of microscopy that detects the rotational motion of fluorophores.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00000603> <https://orcid.org/0000-0002-6095-8718>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000603> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000603> "2010-09-04T01:28:20Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000603> "FAIM")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000603> "fluorescence anisotropy imaging")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000603> "image")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/FBbi_00000603> <http://purl.obolibrary.org/obo/OMO_0003000>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000603> "FBbi:00000603")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000603> "fluorescence polarization microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000603> <http://purl.obolibrary.org/obo/FBbi_00000246>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000603> <http://purl.obolibrary.org/obo/FBbi_00000248>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000604> (compartmentalization of stain or label)
 
