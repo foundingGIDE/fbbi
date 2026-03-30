@@ -702,18 +702,10 @@ Declaration(AnnotationProperty(owl:deprecated))
 #   Annotation Properties
 ############################
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-
 # Annotation Property: <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> (<http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod>)
 
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> "A small set of imaging methods for use in PhenoImageShare indexes")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/fbbi#PhenoImageShare_ImagingMethod> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> (subset_property)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#SubsetProperty> "subset_property")
 
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#created_by> (created by)
 
@@ -723,29 +715,13 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#cre
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#creation_date> "creation date")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
-
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> (has_related_synonym)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "has_related_synonym")
-
 # Annotation Property: <http://www.geneontology.org/formats/oboInOwl#id> (id)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#id> "id")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#inSubset> (in_subset)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#inSubset> "in_subset")
 
 
 ############################
