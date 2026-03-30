@@ -75,7 +75,7 @@ fi
 ODK_TAG=${ODK_TAG:-latest}
 
 if [ -z "$USE_SINGULARITY" ]; then
-    DEFAULT_MAX_MEM=$(bc <<<"($(docker info --format={{.MemTotal}}) * .9) / (1024*1024*1024)")G
+    DEFAULT_MAX_MEM=$(echo "($(docker info --format={{.MemTotal}}) * .9) / (1024*1024*1024)" | bc)G
 else
     DEFAULT_MAX_MEM=8G
 fi
