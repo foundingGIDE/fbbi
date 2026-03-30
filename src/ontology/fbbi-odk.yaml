@@ -1,6 +1,8 @@
 github_org: foundingGIDE
 git_main_branch: master
 id: fbbi
+documentation:
+  documentation_system: mkdocs
 namespaces:
   - http://purl.obolibrary.org/obo/FBbi_
 import_group:
