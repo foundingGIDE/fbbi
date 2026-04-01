@@ -63,6 +63,69 @@
 
 \section{About ontologies}
 
+\begin{frame}[fragile]
+  \frametitle{Controlled vocabularies, taxonomies, ontologies?}
+
+  \begin{columns}[t]
+    \begin{column}{.45\textwidth}
+      \begin{block}{Controlled vocabulary}
+        A flat list of terms, without any relationship between them.
+
+\begin{Verbatim}
+multicellular structure
+organism subdivision
+thorax
+wing blade
+wing disc
+wing pouch
+\end{Verbatim}
+      \end{block}
+    \end{column}
+    \begin{column}{.45\textwidth}
+      \begin{block}{Taxonomy}
+        A controlled vocabulary where terms are connected through ``is
+        a'' relationships.
+
+\begin{Verbatim}
+organism subdivision
+  thorax
+multicellular structure
+  wing blade
+  wing disc
+  wing pouch
+\end{Verbatim}
+      \end{block}
+    \end{column}
+  \end{columns}
+  
+  \begin{block}{Ontology}
+    A taxonomy where the relations between the terms are not limited
+    to ``is a'', but are instead terms themselves.
+  \end{block}
+
+  \note{An ontology is a type of \emph{terminology}. As such, it is
+  related to the similar concepts of ``controlled vocabularies'' and
+  ``taxonomies''.
+
+  One way to look at those concepts is to see them as a progression from
+  controlled vocabularies to taxonomies to ontologies. In that view, a
+  controlled vocabulary is merely a flat list of terms. For example
+  here, terms related to the anatomy of the fruit fly \emph{Drosophila
+  melanogaster}; there are no connections between the terms, and the
+  terms are typically not really defined.
+
+  A taxonomy is a controlled vocabulary in which the terms are organised
+  in a hierarchy where a child term has a narrower meaning that its
+  parent term. We say that the terms are connected by \emph{is-a}
+  relations, for example a ``wing blade'' is a ``multicellular
+  structure''.
+
+  An ontology is the ultimate step of that evolution, and can be seen as
+  a taxonony where terms can be related by \emph{arbitrary} relations,
+  which are themselves defined in the ontology, instead of only
+  \emph{is-a} relations.}
+\end{frame}
+
 \begin{frame}
   \frametitle{What is an ontology?}
 
@@ -118,66 +181,43 @@
   object.}
 \end{frame}
 
-\begin{frame}[fragile]
-  \frametitle{Controlled vocabularies, taxonomies, ontologies?}
+\begin{frame}
+  \frametitle{When and why using ontology terms?}
 
-  \begin{columns}[t]
-    \begin{column}{.45\textwidth}
-      \begin{block}{Controlled vocabulary}
-        A flat list of terms, without any relationship between them.
-
-\begin{Verbatim}
-multicellular structure
-organism subdivision
-thorax
-wing blade
-wing disc
-wing pouch
-\end{Verbatim}
-      \end{block}
-    \end{column}
-    \begin{column}{.45\textwidth}
-      \begin{block}{Taxonomy}
-        A controlled vocabulary where terms are connected through ``is
-        a'' relationships.
-
-\begin{Verbatim}
-organism subdivision
-  thorax
-multicellular structure
-  wing blade
-  wing disc
-  wing pouch
-\end{Verbatim}
-      \end{block}
-    \end{column}
-  \end{columns}
-  
-  \begin{block}{Ontology}
-    A taxonomy where the relations between the terms are not limited
-    to ``is a'', but are instead terms themselves.
+  \begin{block}{When annotating data}
+    \begin{itemize}
+      \item In a database
+      \item In the metadata section of a file
+      \item In any kind of data store facility
+    \end{itemize}
   \end{block}
 
-  \note{A short detour to explain how ontologies are related to the
-  similar concepts of ``controlled vocabularies'' and ``taxonomies''.
+  \begin{block}{For better indexing and retrieval}
+    \begin{itemize}
+      \item Better consistency than user-defined tags
+      \item Search and retrieval can leverage the structure of the
+      ontology
+    \end{itemize}
+  \end{block}
 
-  One way to look at those concepts is to see them as a progression from
-  controlled vocabularies to taxonomies to ontologies. In that view, a
-  controlled vocabulary is merely a flat list of terms. For example
-  here, terms related to the anatomy of the fruit fly \emph{Drosophila
-  melanogaster}; there are no connections between the terms, and the
-  terms are typically not really defined.
+  \note{Ontologies (and terminologies more generally) have many use, but
+  one of the most prominent is data annotation.
 
-  A taxonomy is a controlled vocabulary in which the terms are organised
-  in a hierarchy where a child term has a narrower meaning that its
-  parent term. We say that the terms are connected by \emph{is-a}
-  relations, for example a ``wing blade'' is a ``multicellular
-  structure''.
+  Whenever you need to tag a bit of data to indicate what that bit of
+  data is about, for example when you are loading the data into a
+  database or any kind of data storage system, if the system allows the
+  use of ontological terms it is always a good idea to use them.
 
-  An ontology is the ultimate step of that evolution, and can be seen as
-  a taxonony where terms can be related by \emph{arbitrary} relations,
-  which are themselves defined in the ontology, instead of only
-  \emph{is-a} relations.}
+  Ontology terms will help ensuring that data is annotated in a
+  consistent way, always using the same identifier to refer to the same
+  concept (instead of the myriad of names that could exist to refer to
+  that concept).
+
+  Also, once the data is annotated with ontology terms, a search system
+  can then exploit the structure of the ontology to facilitate the
+  retrieval of data. For example, by searching for a given high-level
+  term of the ontology, you can automatically find all the pieces of
+  data that were annotated with any of the subterms.}
 \end{frame}
 
 \begin{frame}
