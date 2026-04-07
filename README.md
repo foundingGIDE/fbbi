@@ -1,7 +1,15 @@
 # Biological Imaging Methods Ontology
 
-This is an ontology for the description of sample preparation,
+The Biological Imaging Methods Ontology (FBbi) is an ontology for the description of sample preparation,
 visualisation, and imaging methods used in biomedical research.
+
+This GitHub repository is used to maintain and update the source files for the ontology. 
+
+## Quick actions
+
+* You may browse terms, definitions and relations in FBbi in the [EBI's Ontology Lookup Service](https://www.ebi.ac.uk/ols4/ontologies/fbbi/) and [NCBO's BioPortal](https://bioportal.bioontology.org/ontologies/FBbi);
+* You may request new terms or ask questions in the [GitHub tracker](https://github.com/foundingGIDE/fbbi/issues) or, if easier, using the [`ontology` tag on image.sc](https://forum.image.sc/t/a-new-version-of-the-biological-imaging-methods-ontology-fbbi-is-available/119993);
+* You can see metadata about FBbi and its maintenance status in the [OBO Foundry website](https://obofoundry.org/ontology/fbbi.html).
 
 ## History
 The ontology was originally developed by [FlyBase](https://flybase.org/)
@@ -20,7 +28,6 @@ including:
 From 2026 onwards, the ontology is maintained by a joint effort under the
 umbrella of the [FoundingGIDE](https://founding-gide.eurobioimaging.eu) project.
 
-
 ## Known users
 The ontology is known to be used by:
 
@@ -29,7 +36,6 @@ The ontology is known to be used by:
 * the [Cell Image Library](https://www.cellimagelibrary.org/);
 * the [Human Cell Atlas](https://www.humancellatlas.org/);
 * the [FoundingGIDE project](https://founding-gide.eurobioimaging.eu).
-
 
 ## Versions
 
