@@ -9,7 +9,7 @@ This GitHub repository is used to maintain and update the source files for the o
 
 * You may browse terms, definitions and relations in FBbi in the [EBI's Ontology Lookup Service](https://www.ebi.ac.uk/ols4/ontologies/fbbi/). You can click on the term in the tree to explore the hierarchy.
 
-<img width="1137" height="917" alt="grafik" src="https://github.com/user-attachments/assets/6cd7c423-cd1b-4627-8136-74249bd45dc3" />
+<img width="1137" height="917" alt="grafik" src="https://github.com/user-attachments/assets/793604fe-0125-4cfe-bc8e-4f15f9066210" />
 
 
 * You may request new terms or ask questions in the [GitHub tracker](https://github.com/foundingGIDE/fbbi/issues) or, if easier, using the [`ontology` tag on image.sc](https://forum.image.sc/t/a-new-version-of-the-biological-imaging-methods-ontology-fbbi-is-available/119993);
