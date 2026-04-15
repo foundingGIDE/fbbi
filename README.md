@@ -41,6 +41,14 @@ The ontology is known to be used by:
 * the [Human Cell Atlas](https://www.humancellatlas.org/);
 * the [FoundingGIDE project](https://founding-gide.eurobioimaging.eu).
 
+## Further documentation
+
+* A brief introduction to ontologies in general and to the Biological Imaging
+Methods Ontology in particular was given to the Euro-Bioimaging
+[Image Data Community Days 2026](https://www.eurobioimaging.eu/events/image-data-community-days-2026/).
+The slides of that presentation are available
+[here](https://github.com/foundingGIDE/fbbi/releases/download/v2026-03-30/Image.Data.Community.Days.2026.pdf).
+
 ## Versions
 
 ### Stable release versions
