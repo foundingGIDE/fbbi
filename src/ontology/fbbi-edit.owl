@@ -6439,13 +6439,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00001012> "fixation method")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00001012> <http://purl.obolibrary.org/obo/FBbi_00000001>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00050000> (focussed ion beam scanning electron microscopy (FIB-SEM))
+# Class: <http://purl.obolibrary.org/obo/FBbi_00050000> (focused ion beam scanning electron microscopy)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:22119321") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00050000> "A method of reconstructing 3D structure by combining focussed ion beam milling to remove sucessive layers from a sample block with scanning EM to image the exposed surface between each milling step.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00050000> "FIB-SEM")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00050000> "FIB-SEM")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00050000> "focussed ion beam scanning electron microscopy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00050000> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00050000> "FBbi:00050000")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00050000> "focussed ion beam scanning electron microscopy (FIB-SEM)")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00050000> "focused ion beam scanning electron microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00050000> <http://purl.obolibrary.org/obo/FBbi_00000373>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00100000> (SNAP-tag)
