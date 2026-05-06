@@ -5979,14 +5979,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000584> "X-Rhodamine")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000584> <http://purl.obolibrary.org/obo/FBbi_00000455>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_00000585> (serial block face SEM (SBFSEM))
+# Class: <http://purl.obolibrary.org/obo/FBbi_00000585> (serial block face scanning electron microscopy)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15514700") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000585> "A method of reconstructing 3D structure by combining serial sectioning with scanning EM.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15514700") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000585> "A method of reconstructing 3D structure by combining in-situ serial sectioning with scanning EM.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000585> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000585> "2010-09-02T05:10:33Z")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000585> "SBF-SEM")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000585> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000585> "FBbi:00000585")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000585> "serial block face SEM (SBFSEM)")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1038/s43586-022-00131-9") rdfs:comment <http://purl.obolibrary.org/obo/FBbi_00000585> "This term does not encompass methods where the in-situ milling is performed using a focused ion beam (FIB-SEM). We follow the nomenclature of Peddie et al. (2022), in which SBF-SEM and FIB-SEM are considered as two unrelated methods.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000585> "serial block face scanning electron microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000585> <http://purl.obolibrary.org/obo/FBbi_00000373>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000586> (elastic scattering of electrons)
