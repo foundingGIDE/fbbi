@@ -6641,7 +6641,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100018> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00110000> (laser scanning confocal microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00110000> "A confocal microscopy method in which mirrors are used to scan the laser across the sample.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:31876974") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00110000> "A confocal microscopy method in which mirrors are used to scan the laser across the sample.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00110000> <https://orcid.org/0000-0002-1069-1816>)
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00110000> <https://orcid.org/0000-0002-8783-8599>)
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00110000> "2026-05-08T07:47:23Z")
