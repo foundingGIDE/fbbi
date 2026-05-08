@@ -672,7 +672,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100018>))
-Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00110000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -2667,7 +2667,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000252> "FBbi:00000252")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000252> "single-spot confocal microscopy")
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000252> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000286>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000394>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000252> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000252> <http://purl.obolibrary.org/obo/FBbi_00110000>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000253> (spinning disk confocal microscopy)
 
@@ -4004,7 +4004,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000393> "FBbi:00000393")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000393> "array-scan confocal microscopy")
 EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000393> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000289>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000294>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000393> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000393> <http://purl.obolibrary.org/obo/FBbi_00110000>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000394> (spot detector)
 
@@ -6639,16 +6639,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100018> "optical anisotropy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100018> <http://purl.obolibrary.org/obo/FBbi_00000590>)
 
-# Class: <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> (laser scanning confocal microscopy)
+# Class: <http://purl.obolibrary.org/obo/FBbi_00110000> (laser scanning confocal microscopy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> "A confocal microscopy method in which mirrors are used to scan the laser across the sample.")
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> <https://orcid.org/0000-0002-1069-1816>)
-AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> <https://orcid.org/0000-0002-8783-8599>)
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> "CLSM")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> "LSCM")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> "confocal laser scanning microscopy")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> "laser scanning confocal microscopy"@pt)
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_d022f173_7141_4007_a8e0_486721e5d43d> <http://purl.obolibrary.org/obo/FBbi_00000251>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00110000> "A confocal microscopy method in which mirrors are used to scan the laser across the sample.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00110000> <https://orcid.org/0000-0002-1069-1816>)
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00110000> <https://orcid.org/0000-0002-8783-8599>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00110000> "2026-05-08T07:47:23Z")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00110000> "CLSM")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00110000> "LSCM")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00110000> "confocal laser scanning microscopy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00110000> "laser scanning confocal microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00110000> <http://purl.obolibrary.org/obo/FBbi_00000251>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
