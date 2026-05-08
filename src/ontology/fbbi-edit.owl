@@ -3564,7 +3564,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000348> <http://purl.obolibrar
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000349> (apertureless nearfield scanning optical microscopy)
 
-AnnotationAssertion(Annotation(rdfs:comment "PMID: 29296474") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000349> "Aperture-less NSOM.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:29296474") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00000349> "Aperture-less NSOM.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/FBbi_00000349> "jm")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/FBbi_00000349> "2010-03-09T10:20:01Z")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00000349> "ANSOM")
