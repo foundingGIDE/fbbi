@@ -5,12 +5,20 @@ documentation:
   documentation_system: mkdocs
 namespaces:
   - http://purl.obolibrary.org/obo/FBbi_
+robot_plugins:
+  plugins:
+    - name: odk
+      mirror_from: https://github.com/INCATools/odk-robot-plugin/releases/download/odk-robot-plugin-0.3.3/odk.jar
 import_group:
   use_base_merging: true
+  slme_individuals: exclude
   products:
   - id: ro
   - id: omo
   - id: iao
+components:
+  products:
+  - filename: orcidio.owl
 robot:
   reasoner: ELK
 repo: fbbi
