@@ -673,6 +673,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -6641,6 +6651,95 @@ AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100018> "birefringence")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100018> "optical anisotropy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100018> <http://purl.obolibrary.org/obo/FBbi_00000590>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100019> (fluorescent protein derived from Branchiostoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100019> "visualization of fluorescent protein derived from Branchiostoma")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100019> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100019> "2026-06-23T14:42:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100019> "fluorescent protein derived from Branchiostoma")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100019> <http://purl.obolibrary.org/obo/FBbi_00000405>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100020> (green fluorescent protein from Branchiostoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100020> "visualization of green fluorescent protein from Branchiostoma")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100020> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100020> "2026-06-23T14:44:18Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100020> "green fluorescent protein from Branchiostoma")
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00100020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00100007> <http://purl.obolibrary.org/obo/FBbi_00100019>))
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100021> (mNeonGreen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100021> "A visualization method that detects proteins labeled with the mNeonGreen fluorescent protein tag from Branchiostoma lanceolatum.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100021> "visualization of mNeonGreen")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100021> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100021> "2026-06-23T14:45:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100021> "mNeonGreen")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100021> <http://purl.obolibrary.org/obo/FBbi_00100007>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100021> <http://purl.obolibrary.org/obo/FBbi_00100019>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100022> (Cy3B)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100022> "A visualization method that detects a probe conjugated to a Cy3B label.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100022> "visualization of Cy3B")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100022> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100022> "2026-06-23T14:50:01Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100022> "Cy3B")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100022> <http://purl.obolibrary.org/obo/FBbi_00000455>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100023> (HiLyte647)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100023> "A visualization method that detects a probe conjugated to a HiLyte647 label.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100023> "visualization of HiLyte647")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100023> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100023> "2026-06-23T14:51:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100023> "HiLyte647")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100023> <http://purl.obolibrary.org/obo/FBbi_00000455>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100024> (SR2200)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.21769/BioProtoc.1935") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100024> "A visualization method that detects the SR2200 dye, typically used to stain cell walls.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100024> "visualization of SR2200")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100024> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100024> "2026-06-23T14:56:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100024> "SR2200")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100024> <http://purl.obolibrary.org/obo/FBbi_00000112>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100025> (photobleaching)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100025> "A method that images the photobleaching of a fluorophore.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100025> "visualization of photobleaching")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100025> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100025> "2026-06-23T15:01:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100025> "photobleaching")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100025> <http://purl.obolibrary.org/obo/FBbi_00000270>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100026> (phototoxicity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100026> "A method that images the phototoxicity of a fluorophore.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100026> "visualization of phototoxicity")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100026> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100026> "2026-06-23T15:02:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100026> "phototoxicity")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100026> <http://purl.obolibrary.org/obo/FBbi_00000270>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100027> (adherent live cells)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100027> "A sample preparation method allowing the imaging of adherent living cells.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100027> "preparation of adherent live cells")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100027> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100027> "2026-06-23T15:05:47Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100027> "adherent live cells")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100027> <http://purl.obolibrary.org/obo/FBbi_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100028> (stably transfected cells)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100028> "A sample preparation method allowing the image of stably transfected cells.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000589> <http://purl.obolibrary.org/obo/FBbi_00100028> "preparation of stably transfected cells")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100028> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100028> "2026-06-23T15:14:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100028> "stably transfected cells")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100028> <http://purl.obolibrary.org/obo/FBbi_00000001>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
