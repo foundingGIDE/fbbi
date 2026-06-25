@@ -78,6 +78,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000478>		
 <http://purl.obolibrary.org/obo/FBbi_00000018>		
 <http://purl.obolibrary.org/obo/FBbi_00000599>		
+<http://purl.obolibrary.org/obo/FBbi_00100023>	"A visualization method that detects a probe conjugated to a HiLyte647 label."	
 <http://purl.obolibrary.org/obo/FBbi_00000129>	"Tissue made permeable by the action of glycerol"	
 <http://purl.obolibrary.org/obo/FBbi_00000357>		
 <http://purl.obolibrary.org/obo/FBbi_00000006>		
@@ -102,7 +103,6 @@
 <http://purl.obolibrary.org/obo/FBbi_00000211>		
 <http://purl.obolibrary.org/obo/FBbi_00000586>		
 <http://purl.obolibrary.org/obo/FBbi_00000465>		
-<http://purl.obolibrary.org/obo/FBbi_00000585>	"A method of reconstructing 3D structure by combining serial sectioning with scanning EM."	
 <http://purl.obolibrary.org/obo/BFO_0000019>		
 <http://purl.obolibrary.org/obo/FBbi_00000029>		
 <http://purl.obolibrary.org/obo/FBbi_00000489>		
@@ -136,7 +136,6 @@
 <http://purl.obolibrary.org/obo/FBbi_00000145>		
 <http://purl.obolibrary.org/obo/FBbi_00000012>		
 <http://purl.obolibrary.org/obo/FBbi_00100008>	"A visualization method that detects a cyan fluorescent protein tag."	
-<http://purl.obolibrary.org/obo/FBbi_00100017>	"Cryogenic serial block-face scanning electron microscopy is a volumetric imaging technique in which the surface of a biological specimen preserved in its near-native, vitrified state is imaged by a scanning electron microscope, then ablated by a focused ion beam (FIB-SEM) to reveal a new surface, enabling three-dimensional ultrastructural reconstruction of cells and tissues without the artifacts introduced by chemical fixation or resin embedding."	
 <http://purl.obolibrary.org/obo/FBbi_00001003>	"Tomography using X-ray illumination."	
 <http://purl.obolibrary.org/obo/FBbi_00000120>		
 <http://purl.obolibrary.org/obo/FBbi_00000471>		
@@ -182,6 +181,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000589>	"The inelastic scattering of photons caused by interaction with matter."	
 <http://purl.obolibrary.org/obo/FBbi_00000159>		
 <http://purl.obolibrary.org/obo/FBbi_00000038>		
+<http://purl.obolibrary.org/obo/FBbi_00100021>	"A visualization method that detects proteins labeled with the mNeonGreen fluorescent protein tag from Branchiostoma lanceolatum."	
 <http://purl.obolibrary.org/obo/FBbi_00000570>		
 <http://purl.obolibrary.org/obo/FBbi_00000110>		
 <http://purl.obolibrary.org/obo/FBbi_00000231>		
@@ -247,10 +247,12 @@
 <http://purl.obolibrary.org/obo/FBbi_00000188>		
 <http://purl.obolibrary.org/obo/FBbi_00000067>		
 <http://purl.obolibrary.org/obo/FBbi_00000491>		
+<http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be one or more truthful statement(s) about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
 <http://purl.obolibrary.org/obo/IAO_0000078>	"The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en	
 <http://purl.obolibrary.org/obo/FBbi_00000609>		
 <http://purl.obolibrary.org/obo/FBbi_00000089>	"Fully hydrated tissue rapidly frozen to produce vitrified water, and maintained continuously below the glass transition temperature of water (approximately -137 deg C"	
 <http://purl.obolibrary.org/obo/FBbi_00100000>	"A visualization method that detects a protein self-labelled with a SNAP-tag. A SNAP-tag is an engineered version of the mammalian enzyme AGT that can covalently bind O6-benzylguanine-based ligands."	
+<http://purl.obolibrary.org/obo/FBbi_00100020>		
 <http://purl.obolibrary.org/obo/FBbi_00000022>		
 <http://purl.obolibrary.org/obo/FBbi_00000252>		
 <http://purl.obolibrary.org/obo/FBbi_00000131>		
@@ -263,6 +265,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000361>		
 <http://purl.obolibrary.org/obo/FBbi_00000265>	"Methods and devices used for capturing an image of a real object; distinct from images created by artwork"	
 <http://purl.obolibrary.org/obo/FBbi_00000494>		
+<http://purl.obolibrary.org/obo/FBbi_00100017>	"Cryogenic focused ion beam scanning electron microscopy is a volumetric imaging technique in which the surface of a biological specimen preserved in its near-native, vitrified state is imaged by a scanning electron microscope, then ablated by a focused ion beam (FIB-SEM) to reveal a new surface, enabling three-dimensional ultrastructural reconstruction of cells and tissues without the artifacts introduced by chemical fixation or resin embedding."	
 <http://purl.obolibrary.org/obo/FBbi_00000179>		
 <http://purl.obolibrary.org/obo/FBbi_00000058>		
 <http://purl.obolibrary.org/obo/FBbi_00000046>		
@@ -305,6 +308,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000052>		
 <http://purl.obolibrary.org/obo/FBbi_00000453>	"Fluorophore with ex/em 589/615"	
 <http://purl.obolibrary.org/obo/FBbi_00100004>	"A visualization method that detects proteins labeled with the mTurquoise fluorescent protein tag from Aequorea victoria."	
+<http://purl.obolibrary.org/obo/FBbi_00100026>	"A method that images the phototoxicity of a fluorophore."	
 <http://purl.obolibrary.org/obo/FBbi_00000292>	"Illumination restricted to angles that exceed the acceptance angle of the image-forming lens"	
 <http://purl.obolibrary.org/obo/FBbi_00000040>		
 <http://purl.obolibrary.org/obo/FBbi_00000282>		
@@ -320,11 +324,13 @@
 <http://purl.obolibrary.org/obo/FBbi_00000075>		
 <http://purl.obolibrary.org/obo/FBbi_00000196>		
 <http://purl.obolibrary.org/obo/FBbi_00000063>		
+<http://purl.obolibrary.org/obo/FBbi_00100022>	"A visualization method that detects a probe conjugated to a Cy3B label."	
 <http://purl.obolibrary.org/obo/FBbi_00000051>		
 <http://purl.obolibrary.org/obo/FBbi_00000281>		
 <http://purl.obolibrary.org/obo/FBbi_00000160>		
 <http://purl.obolibrary.org/obo/FBbi_00000390>		
 <http://purl.obolibrary.org/obo/FBbi_00000172>		
+<http://purl.obolibrary.org/obo/FBbi_00100028>	"A sample preparation method allowing the image of stably transfected cells."	
 <http://purl.obolibrary.org/obo/FBbi_00000508>		
 <http://purl.obolibrary.org/obo/FBbi_00000605>		
 <http://purl.obolibrary.org/obo/FBbi_00000617>		
@@ -341,6 +347,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000030>		
 <http://purl.obolibrary.org/obo/FBbi_00000199>		
 <http://purl.obolibrary.org/obo/FBbi_00000078>		
+<http://purl.obolibrary.org/obo/NCBITaxon_9606>		
 <http://purl.obolibrary.org/obo/FBbi_00000041>	"The staining method involves application of hemalum, which is a complex formed from aluminium ions and oxidized haematoxylin. This colors nuclei of cells (and a few other objects, such as keratohyalin granules) blue. The staining of nuclei by hemalum does not require the presence of DNA and is probably due to binding of the dye-metal complex to arginine-rich basic nucleoproteins such as histones. The mechanism is different from that of nuclear staining by basic (cationic) dyes such as thionine or toluidine blue. Staining by basic dyes is prevented by chemical or enzymatic extraction of nucleic acids. Such extractions do not prevent staining of nuclei by hemalum."	
 <http://purl.obolibrary.org/obo/FBbi_00000260>		"http://en.wikipedia.org/wiki/X-ray_microscope"
 <http://purl.obolibrary.org/obo/FBbi_00000381>		
@@ -415,6 +422,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000287>	"Illumination by multiple points of light simultaneously"	
 <http://purl.obolibrary.org/obo/FBbi_00000340>	"Structured illumination used at sufficiently high power to cause significant ground-state depletion of the imaged fluorophore, thus allowing for non-linear resolution enhancement"	
 <http://purl.obolibrary.org/obo/FBbi_00100010>	"A visualization method that detects a far-red fluorescent protein tag."	
+<http://purl.obolibrary.org/obo/FBbi_00100027>	"A sample preparation method allowing the imaging of adherent living cells."	
 <http://purl.obolibrary.org/obo/FBbi_00000073>		
 <http://purl.obolibrary.org/obo/FBbi_00000182>		
 <http://purl.obolibrary.org/obo/FBbi_00000061>		
@@ -445,6 +453,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00100013>	"A mode of fluorescence microscopy where the entire observed field is illuminated."	
 <http://purl.obolibrary.org/obo/FBbi_00000091>		
 <http://purl.obolibrary.org/obo/FBbi_00000396>	"Methods of visualization that differentiate between different regions or surfaces of the specimen based on contiguity"	
+<http://purl.obolibrary.org/obo/FBbi_00000585>	"A method of reconstructing 3D structure by combining in-situ serial sectioning with scanning EM."	
 <http://purl.obolibrary.org/obo/FBbi_00000383>	"Illumination used for the purpose of inducing some observable change in the specimen during the course of an imaging session. This illumination may or may not be the same as the illumination used for imaging. Typically used in conjunction with live-cell imaging"	
 <http://purl.obolibrary.org/obo/FBbi_00100014>	"A form of transmission electron microscopy in which the specimen is maintained in a vitrified state at cryogenic temperature throughout imaging. The specimen is rapidly frozen to preserve its native structure in amorphous ice, avoiding the artefacts associated with chemical fixation, dehydration, and staining. Imaging is performed with the specimen held at cryogenic temperature in a transmission electron microscope."	
 <http://purl.obolibrary.org/obo/FBbi_00000512>		
@@ -556,6 +565,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000208>		
 <http://purl.obolibrary.org/obo/FBbi_00000329>		
 <http://purl.obolibrary.org/obo/FBbi_00000510>		
+<http://purl.obolibrary.org/obo/FBbi_00100024>	"A visualization method that detects the SR2200 dye, typically used to stain cell walls."	
 <http://purl.obolibrary.org/obo/FBbi_00000368>	"A fluorescence microscopy method in which the image contrast is derived from the fluorescence lifetime at each point in a two-dimensional image and not the local concentration and/or intensity of the fluorophore."	
 <http://purl.obolibrary.org/obo/FBbi_00000304>		
 <http://purl.obolibrary.org/obo/FBbi_00000534>		
@@ -580,6 +590,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000565>		
 <http://purl.obolibrary.org/obo/FBbi_00000444>		
 <http://purl.obolibrary.org/obo/FBbi_00000432>		
+<http://purl.obolibrary.org/obo/FBbi_00100019>		
 <http://purl.obolibrary.org/obo/FBbi_00000553>		
 <http://purl.obolibrary.org/obo/FBbi_00100002>	"A visualization method that detects the natural fluorescence emitted by endogenous biological structures or compounds."	
 <http://purl.obolibrary.org/obo/FBbi_00000392>	"Illumination and detection via a thin slit"	
@@ -596,7 +607,6 @@
 <http://purl.obolibrary.org/obo/FBbi_00000347>		
 <http://purl.obolibrary.org/obo/FBbi_00000226>		
 <http://purl.obolibrary.org/obo/FBbi_00000373>	"Imaged formed using electrons undergoing elastic scattering at very high angles, with emission of characteristic X-rays"	
-<http://purl.obolibrary.org/obo/IAO_0000027>	"An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en	
 <http://purl.obolibrary.org/obo/FBbi_00000201>		
 <http://purl.obolibrary.org/obo/FBbi_00000552>		
 <http://purl.obolibrary.org/obo/FBbi_00000431>		
@@ -658,6 +668,7 @@
 <http://purl.obolibrary.org/obo/FBbi_00000421>		
 <http://purl.obolibrary.org/obo/FBbi_00000293>	"Illumination at angles less than the acceptance angle of the image-forming lens is attenuated by a filter to give a colored background of unscattered light; higher angle illumination may be filtered to give a contrasting color"	
 <http://purl.obolibrary.org/obo/FBbi_00050000>	"A method of reconstructing 3D structure by combining focussed ion beam milling to remove sucessive layers from a sample block with scanning EM to image the exposed surface between each milling step."	
+<http://purl.obolibrary.org/obo/FBbi_00100025>	"A method that images the photobleaching of a fluorophore."	
 <http://purl.obolibrary.org/obo/BFO_0000015>		
 <http://purl.obolibrary.org/obo/BFO_0000040>	"An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en	
 <http://purl.obolibrary.org/obo/FBbi_00000348>		
