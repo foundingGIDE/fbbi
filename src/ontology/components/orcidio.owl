@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/fbbi/components/orcidio.owl>
-<http://purl.obolibrary.org/obo/fbbi/releases/2026-06-25/components/orcidio.owl>
-Annotation(owl:versionInfo "2026-06-25")
+<http://purl.obolibrary.org/obo/fbbi/releases/2026-07-23/components/orcidio.owl>
+Annotation(owl:versionInfo "2026-07-23")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0002-6095-8718>))
