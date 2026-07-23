@@ -39,3 +39,9 @@ Datatype: idrange:3
         allocatedto: "Tiago Lubiana"
     EquivalentTo:
         xsd:integer[>= 110000, < 120000]
+
+Datatype: idrange:4
+    Annotations:
+        allocatedto: "François Sherwood"
+    EquivalentTo:
+        xsd:integer[>= 120000, < 130000]
