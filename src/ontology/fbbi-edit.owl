@@ -683,6 +683,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00120000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
@@ -6740,6 +6741,19 @@ AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100028> "2026-06-23T15:14:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100028> "stably transfected cells")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100028> <http://purl.obolibrary.org/obo/FBbi_00000001>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00120000> (magnetic resonance imaging)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00120000> "Imaging using magnetic fields to cause radiofrequency waves emission that is then measured. The technique is typically used to visualise soft tissue sections.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00120000> <https://orcid.org/0009-0007-4223-1439>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00120000> "2026-07-23T14:53:00Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00120000> "MRI")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00120000> "MRT")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00120000> "magnetic resonance tomography")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00120000> "nuclear magnetic resonance imaging")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00120000> "image")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00120000> "magnetic resonance imaging"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00120000> <http://purl.obolibrary.org/obo/FBbi_00001004>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_root_00000000> (method involved in biological imaging)
 
