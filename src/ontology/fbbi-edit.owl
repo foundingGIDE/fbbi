@@ -687,6 +687,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100029>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00120000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
@@ -2704,8 +2707,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000254> <http://purl.obolibrar
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000255> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000255> "FBbi:00000255")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000255> "multi-photon microscopy")
-EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000278>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000284>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000316>)))
-SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> <http://purl.obolibrary.org/obo/FBbi_00000345>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> <http://purl.obolibrary.org/obo/FBbi_00100033>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000278>))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000284>))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000316>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000256> (electron microscopy)
 
@@ -3800,7 +3805,9 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000370> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000370> "FBbi:00000370")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000370> "coherent Raman anti-Stokes microscopy")
-EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000319>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000589>)))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> <http://purl.obolibrary.org/obo/FBbi_00100033>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000319>))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000589>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000371> (OCT)
 
@@ -6787,6 +6794,40 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100032> "bioluminescence microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100032> <http://purl.obolibrary.org/obo/FBbi_00000343>)
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100032> <http://purl.obolibrary.org/obo/FBbi_00100031>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100033> (nonlinear optical microscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1007/978-3-540-46022-0_7") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100033> "A light microscopy method where the image contrast is generated from nonlinear responses of the sample material to the illumination light.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100033> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100033> "2026-10-09T13:41:21Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100033> "NLO microscopy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100033> "nonlinear optical microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100033> <http://purl.obolibrary.org/obo/FBbi_00000345>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100034> (second harmonic generation microscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1007/s12551-022-01041-6") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100034> "A light microscopy method in which image contrast is generated by second harmonic generation, a coherent second-order nonlinear optical process in which two photons of the same frequency interact with a non-centrosymmetric medium to generate a photon at twice the incident frequency.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100034> <https://orcid.org/0000-0001-7175-7121>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100034> "2026-10-09T14:38:48Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100034> "SHG imaging")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100034> "SHG microscopy")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100034> "SHIM")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100034> "second harmonic generation imaging microscopy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100034> "second harmonic imaging microscopy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100034> "second harmonic generation microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100034> <http://purl.obolibrary.org/obo/FBbi_00100033>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100035> (third harmonic generation microscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.3389/fbioe.2020.585363") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100035> "A light microscopy method in which image contrast is generated by third harmonic generation, a third-order nonlinear optical process in which the combined energy of three photons is converted into a photon emitted at the triple of the energy.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100035> <https://orcid.org/0000-0002-6095-8718>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100035> "2026-10-09T14:46:38Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100035> "THG imaging")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100035> "THG microscopy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100035> "third harmonic generation imaging microscopy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100035> "third harmonic imaging microscopy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100035> "third harmonic generation microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100035> <http://purl.obolibrary.org/obo/FBbi_00100033>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00120000> (magnetic resonance imaging)
 
