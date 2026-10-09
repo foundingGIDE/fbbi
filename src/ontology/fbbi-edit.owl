@@ -2705,8 +2705,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000254> <http://purl.obolibrar
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000255> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000255> "FBbi:00000255")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000255> "multi-photon microscopy")
-EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000278>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000284>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000316>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> <http://purl.obolibrary.org/obo/FBbi_00100033>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000278>))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000284>))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000316>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000256> (electron microscopy)
 
@@ -3801,8 +3803,9 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/FBbi_00000370> "image")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/FBbi_00000370> "FBbi:00000370")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00000370> "coherent Raman anti-Stokes microscopy")
-EquivalentClasses(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/FBbi_00000345> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000319>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000589>)))
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> <http://purl.obolibrary.org/obo/FBbi_00100033>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000319>))
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00000370> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/FBbi_00000346> <http://purl.obolibrary.org/obo/FBbi_00000589>))
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00000371> (OCT)
 
