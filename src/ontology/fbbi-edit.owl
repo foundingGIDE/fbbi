@@ -684,6 +684,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00100030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_00120000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBbi_root_00000000>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/FBbi_00000346>))
@@ -6752,6 +6753,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100029> "spectrally resolved microscopy")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100029> "spectral microscopy")
 SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100029> <http://purl.obolibrary.org/obo/FBbi_00000345>)
+
+# Class: <http://purl.obolibrary.org/obo/FBbi_00100030> (hyperspectral microscopy)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "doi:10.1002/jbio.201400051") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBbi_00100030> "A spectral imaging microscopy method in which spatially resolved image data are acquired over many contiguous or closely spaced spectral bands, producing a densely sampled spectrum at each spatial location.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/FBbi_00100030> <https://orcid.org/0000-0001-7175-7121>)
+AnnotationAssertion(<http://purl.org/dc/terms/date> <http://purl.obolibrary.org/obo/FBbi_00100030> "2026-10-09T11:09:16Z"^^xsd:dateTime)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100030> "HSI microscopy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100030> "hyperspectral imaging microscopy")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/FBbi_00100030> "hyperspectral microscopic imaging")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBbi_00100030> "hyperspectral microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/FBbi_00100030> <http://purl.obolibrary.org/obo/FBbi_00100029>)
 
 # Class: <http://purl.obolibrary.org/obo/FBbi_00120000> (magnetic resonance imaging)
 

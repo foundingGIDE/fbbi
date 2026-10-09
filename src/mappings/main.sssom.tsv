@@ -1,7 +1,9 @@
 #curie_map:
 #  FBbi: http://purl.obolibrary.org/obo/FBbi_
 #  edam: http://edamontology.org/
+#  mesh: http://id.nlm.nih.gov/mesh/
 #license: https://creativecommons.org/licenses/by/4.0/
 #mapping_set_id: http://purl.obolibrary.org/obo/fbbi/mappings/main.sssom.tsv
 subject_id	predicate_id	object_id	mapping_justification
-FBbi:0000345	skos:exactMatch	edam:topic_3385	semapv:ManualMappingCuration
+FBbi:00000345	skos:exactMatch	edam:topic_3385	semapv:ManualMappingCuration
+FBbi:00100030	skos:broadMatch	mesh:D000081862	semapv:ManualMappingCuration
