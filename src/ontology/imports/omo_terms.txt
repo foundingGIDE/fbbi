@@ -1,1 +1,2 @@
 OMO:0003000
+oboInOwl:hasNarrowSynonym

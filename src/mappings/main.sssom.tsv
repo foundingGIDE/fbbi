@@ -7,3 +7,6 @@
 subject_id	predicate_id	object_id	mapping_justification
 FBbi:00000345	skos:exactMatch	edam:topic_3385	semapv:ManualMappingCuration
 FBbi:00100030	skos:broadMatch	mesh:D000081862	semapv:ManualMappingCuration
+FBbi:00100033	skos:exactMatch	mesh:D000073758	semapv:ManualMappingCuration
+FBbi:00000255	skos:exactMatch	mesh:D036641	semapv:ManualMappingCuration
+FBbi:00100034	skos:exactMatch	mesh:D000073798	semapv:ManualMappingCuration
